@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv
+venv/
+ENV/
+.env
+
+# Data and Models (Avoid committing user data/models)
+backend/uploads/*
+backend/processed/*
+backend/saved_models/*
+!backend/uploads/.gitkeep
+!backend/processed/.gitkeep
+!backend/saved_models/.gitkeep
+
+# Node / React
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr
+frontend/*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
