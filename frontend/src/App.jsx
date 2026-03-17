@@ -168,229 +168,231 @@ function App() {
 
       {renderStepIndicator()}
 
-      {error && (
-        <div style={{ backgroundColor: 'var(--error)', padding: '15px', borderRadius: '8px', marginBottom: '20px', color: 'white' }}>
-          {error}
-        </div>
-      )}
-
-      {/* STEP 1: UPLOAD */}
-      {step === 1 && (
-        <div className="card">
-          <h2><Upload /> Upload Dataset</h2>
-          <p style={{ marginBottom: '20px', color: 'var(--text-secondary)' }}>Upload your CSV or Excel file to begin building your model.</p>
-
-          <label className="upload-area">
-            <Upload className="upload-icon" size={48} />
-            <h3>Drag & Drop or Click to Upload</h3>
-            <p style={{ marginTop: '10px', color: 'var(--text-secondary)' }}>Supports .csv, .xls, .xlsx</p>
-            <input type="file" accept=".csv,.xls,.xlsx" onChange={handleFileUpload} disabled={loading} />
-          </label>
-
-          {loading && <p style={{ textAlign: 'center', marginTop: '20px', color: 'var(--primary)' }}>Analyzing file...</p>}
-        </div>
-      )}
-
-      {/* STEP 2: SCHEMA & CLEANING */}
-      {step === 2 && schema && (
-        <div className="card">
-          <h2><Database /> Dataset Overview</h2>
-          <div className="stat-badges">
-            <div className="badge numeric">Rows: {schema.total_rows}</div>
-            <div className="badge categorical">Columns: {schema.total_columns}</div>
+      <div className="main-content">
+        {error && (
+          <div style={{ backgroundColor: 'var(--error)', padding: '15px', borderRadius: '8px', marginBottom: '20px', color: 'white' }}>
+            {error}
           </div>
+        )}
 
-          <div style={{ overflowX: 'auto' }}>
-            <table className="data-table">
-              <thead>
-                <tr>
-                  <th>Column Name</th>
-                  <th>Type</th>
-                  <th>Missing Values</th>
-                  <th>Unique Values</th>
-                </tr>
-              </thead>
-              <tbody>
-                {schema.columns.map(col => (
-                  <tr key={col.name}>
-                    <td><strong>{col.name}</strong></td>
-                    <td>
-                      <span className={`badge ${col.type}`}>{col.type}</span>
-                    </td>
-                    <td style={{ color: col.missing_values > 0 ? 'var(--error)' : 'inherit' }}>
-                      {col.missing_values}
-                    </td>
-                    <td>{col.unique_values}</td>
+        {/* STEP 1: UPLOAD */}
+        {step === 1 && (
+          <div className="card">
+            <h2><Upload /> Upload Dataset</h2>
+            <p style={{ marginBottom: '20px', color: 'var(--text-secondary)' }}>Upload your CSV or Excel file to begin building your model.</p>
+
+            <label className="upload-area">
+              <Upload className="upload-icon" size={48} />
+              <h3>Drag & Drop or Click to Upload</h3>
+              <p style={{ marginTop: '10px', color: 'var(--text-secondary)' }}>Supports .csv, .xls, .xlsx</p>
+              <input type="file" accept=".csv,.xls,.xlsx" onChange={handleFileUpload} disabled={loading} />
+            </label>
+
+            {loading && <p style={{ textAlign: 'center', marginTop: '20px', color: 'var(--primary)' }}>Analyzing file...</p>}
+          </div>
+        )}
+
+        {/* STEP 2: SCHEMA & CLEANING */}
+        {step === 2 && schema && (
+          <div className="card">
+            <h2><Database /> Dataset Overview</h2>
+            <div className="stat-badges">
+              <div className="badge numeric">Rows: {schema.total_rows}</div>
+              <div className="badge categorical">Columns: {schema.total_columns}</div>
+            </div>
+
+            <div style={{ overflowX: 'auto' }}>
+              <table className="data-table">
+                <thead>
+                  <tr>
+                    <th>Column Name</th>
+                    <th>Type</th>
+                    <th>Missing Values</th>
+                    <th>Unique Values</th>
                   </tr>
+                </thead>
+                <tbody>
+                  {schema.columns.map(col => (
+                    <tr key={col.name}>
+                      <td><strong>{col.name}</strong></td>
+                      <td>
+                        <span className={`badge ${col.type}`}>{col.type}</span>
+                      </td>
+                      <td style={{ color: col.missing_values > 0 ? 'var(--error)' : 'inherit' }}>
+                        {col.missing_values}
+                      </td>
+                      <td>{col.unique_values}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+
+            <div style={{ marginTop: '30px', display: 'flex', justifyContent: 'flex-end' }}>
+              <button className="btn btn-success" onClick={handleCleanData} disabled={loading}>
+                <Settings size={18} /> Auto-Clean Data <ChevronRight size={18} />
+              </button>
+            </div>
+          </div>
+        )}
+
+        {/* STEP 3: FEATURE ENGINEERING */}
+        {step === 3 && schema && (
+          <div className="card">
+            <h2><Settings /> Feature Selection & Engineering</h2>
+            <p style={{ marginBottom: '20px', color: 'var(--text-secondary)' }}>
+              Select your prediction target and features to use. Automatic encoding and scaling will be applied.
+            </p>
+
+            <div className="form-group">
+              <label>Target Column (What you want to predict)</label>
+              <select
+                className="form-select"
+                value={targetColumn}
+                onChange={e => {
+                  setTargetColumn(e.target.value);
+                  setFeatureColumns(prev => prev.filter(c => c !== e.target.value));
+                }}
+              >
+                <option value="">Select Target...</option>
+                {schema.columns.map(col => (
+                  <option key={col.name} value={col.name}>{col.name}</option>
                 ))}
-              </tbody>
-            </table>
+              </select>
+            </div>
+
+            <div className="form-group" style={{ marginTop: '20px' }}>
+              <label>Feature Columns (Data used to predict)</label>
+              <div className="checkbox-grid">
+                {schema.columns.filter(c => c.name !== targetColumn).map(col => (
+                  <div
+                    key={col.name}
+                    className={`checkbox-item ${featureColumns.includes(col.name) ? 'selected' : ''}`}
+                    onClick={() => toggleFeature(col.name)}
+                  >
+                    <input
+                      type="checkbox"
+                      checked={featureColumns.includes(col.name)}
+                      readOnly
+                    />
+                    <span>{col.name}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div style={{ marginTop: '30px', display: 'flex', justifyContent: 'flex-end' }}>
+              <button className="btn btn-success" onClick={handleFeatureEngineering} disabled={loading || !targetColumn}>
+                <Activity size={18} /> Process Features <ChevronRight size={18} />
+              </button>
+            </div>
           </div>
+        )}
 
-          <div style={{ marginTop: '30px', display: 'flex', justifyContent: 'flex-end' }}>
-            <button className="btn btn-success" onClick={handleCleanData} disabled={loading}>
-              <Settings size={18} /> Auto-Clean Data <ChevronRight size={18} />
-            </button>
+        {/* STEP 4: TRAINING */}
+        {step === 4 && (
+          <div className="card">
+            <h2><Play /> Train Model</h2>
+
+            <div className="form-group">
+              <label>Model Type</label>
+              <select
+                className="form-select"
+                value={modelType}
+                onChange={e => {
+                  setModelType(e.target.value);
+                  setModelName(e.target.value === 'classification' ? 'Logistic Regression' : 'Linear Regression');
+                }}
+              >
+                <option value="classification">Classification (Predict a category/class)</option>
+                <option value="regression">Regression (Predict a continuous number)</option>
+              </select>
+            </div>
+
+            <div className="form-group" style={{ marginTop: '20px' }}>
+              <label>Algorithm</label>
+              <select className="form-select" value={modelName} onChange={e => setModelName(e.target.value)}>
+                {modelType === 'classification' ? (
+                  <>
+                    <option value="Logistic Regression">Logistic Regression</option>
+                    <option value="Random Forest Classifier">Random Forest</option>
+                  </>
+                ) : (
+                  <>
+                    <option value="Linear Regression">Linear Regression</option>
+                    <option value="Random Forest Regressor">Random Forest</option>
+                  </>
+                )}
+              </select>
+            </div>
+
+            <div style={{ marginTop: '30px', display: 'flex', justifyContent: 'flex-end' }}>
+              <button className="btn btn-success" onClick={handleTrainModel} disabled={loading}>
+                <Play size={18} /> Start Training <ChevronRight size={18} />
+              </button>
+            </div>
           </div>
-        </div>
-      )}
+        )}
 
-      {/* STEP 3: FEATURE ENGINEERING */}
-      {step === 3 && schema && (
-        <div className="card">
-          <h2><Settings /> Feature Selection & Engineering</h2>
-          <p style={{ marginBottom: '20px', color: 'var(--text-secondary)' }}>
-            Select your prediction target and features to use. Automatic encoding and scaling will be applied.
-          </p>
+        {/* STEP 5: EVALUATION */}
+        {step === 5 && metrics && (
+          <div className="card">
+            <h2><Activity /> Model Evaluation</h2>
+            <p style={{ color: 'var(--text-secondary)' }}>Model '{modelName}' trained successfully.</p>
 
-          <div className="form-group">
-            <label>Target Column (What you want to predict)</label>
-            <select
-              className="form-select"
-              value={targetColumn}
-              onChange={e => {
-                setTargetColumn(e.target.value);
-                setFeatureColumns(prev => prev.filter(c => c !== e.target.value));
-              }}
-            >
-              <option value="">Select Target...</option>
-              {schema.columns.map(col => (
-                <option key={col.name} value={col.name}>{col.name}</option>
-              ))}
-            </select>
-          </div>
-
-          <div className="form-group" style={{ marginTop: '20px' }}>
-            <label>Feature Columns (Data used to predict)</label>
-            <div className="checkbox-grid">
-              {schema.columns.filter(c => c.name !== targetColumn).map(col => (
-                <div
-                  key={col.name}
-                  className={`checkbox-item ${featureColumns.includes(col.name) ? 'selected' : ''}`}
-                  onClick={() => toggleFeature(col.name)}
-                >
-                  <input
-                    type="checkbox"
-                    checked={featureColumns.includes(col.name)}
-                    readOnly
-                  />
-                  <span>{col.name}</span>
+            <div className="metrics-grid">
+              {Object.entries(metrics).map(([key, value]) => (
+                <div className="metric-card" key={key}>
+                  <div className="metric-value">
+                    {typeof value === 'number' ? (value > 1 && key !== 'rmse' && key !== 'mae' ? value : value.toFixed(4)) : value}
+                  </div>
+                  <div className="metric-label">{key}</div>
                 </div>
               ))}
             </div>
+
+            <div className="chart-container">
+              <h3 className="chart-title"><Activity size={18} /> Actual vs Predicted (Sample)</h3>
+              <ResponsiveContainer width="100%" height="80%">
+                {modelType === 'regression' ? (
+                  <LineChart data={plotData}>
+                    <CartesianGrid strokeDasharray="3 3" stroke="#334155" />
+                    <XAxis dataKey="index" stroke="#94a3b8" />
+                    <YAxis stroke="#94a3b8" />
+                    <Tooltip
+                      contentStyle={{ backgroundColor: '#1e293b', border: '1px solid #334155', borderRadius: '8px' }}
+                      itemStyle={{ color: '#f8fafc' }}
+                    />
+                    <Legend />
+                    <Line type="monotone" dataKey="actual" stroke="#818cf8" strokeWidth={2} dot={{ r: 4 }} activeDot={{ r: 6 }} />
+                    <Line type="monotone" dataKey="predicted" stroke="#10b981" strokeWidth={2} dot={{ r: 4 }} activeDot={{ r: 6 }} />
+                  </LineChart>
+                ) : (
+                  <BarChart data={plotData}>
+                    <CartesianGrid strokeDasharray="3 3" stroke="#334155" />
+                    <XAxis dataKey="index" stroke="#94a3b8" />
+                    <YAxis stroke="#94a3b8" />
+                    <Tooltip
+                      contentStyle={{ backgroundColor: '#1e293b', border: '1px solid #334155', borderRadius: '8px' }}
+                    />
+                    <Bar dataKey="actual" fill="#818cf8" radius={[4, 4, 0, 0]} />
+                    <Bar dataKey="predicted" fill="#10b981" radius={[4, 4, 0, 0]} />
+                  </BarChart>
+                )}
+              </ResponsiveContainer>
+            </div>
+
+            <div style={{ marginTop: '40px', display: 'flex', justifyContent: 'center', gap: '20px' }}>
+              <button className="btn btn-secondary" onClick={handleStartOver}>
+                Start Over
+              </button>
+              <button className="btn btn-success" onClick={downloadModel}>
+                <Download size={18} /> Download Model (.joblib)
+              </button>
+            </div>
           </div>
-
-          <div style={{ marginTop: '30px', display: 'flex', justifyContent: 'flex-end' }}>
-            <button className="btn btn-success" onClick={handleFeatureEngineering} disabled={loading || !targetColumn}>
-              <Activity size={18} /> Process Features <ChevronRight size={18} />
-            </button>
-          </div>
-        </div>
-      )}
-
-      {/* STEP 4: TRAINING */}
-      {step === 4 && (
-        <div className="card">
-          <h2><Play /> Train Model</h2>
-
-          <div className="form-group">
-            <label>Model Type</label>
-            <select
-              className="form-select"
-              value={modelType}
-              onChange={e => {
-                setModelType(e.target.value);
-                setModelName(e.target.value === 'classification' ? 'Logistic Regression' : 'Linear Regression');
-              }}
-            >
-              <option value="classification">Classification (Predict a category/class)</option>
-              <option value="regression">Regression (Predict a continuous number)</option>
-            </select>
-          </div>
-
-          <div className="form-group" style={{ marginTop: '20px' }}>
-            <label>Algorithm</label>
-            <select className="form-select" value={modelName} onChange={e => setModelName(e.target.value)}>
-              {modelType === 'classification' ? (
-                <>
-                  <option value="Logistic Regression">Logistic Regression</option>
-                  <option value="Random Forest Classifier">Random Forest</option>
-                </>
-              ) : (
-                <>
-                  <option value="Linear Regression">Linear Regression</option>
-                  <option value="Random Forest Regressor">Random Forest</option>
-                </>
-              )}
-            </select>
-          </div>
-
-          <div style={{ marginTop: '30px', display: 'flex', justifyContent: 'flex-end' }}>
-            <button className="btn btn-success" onClick={handleTrainModel} disabled={loading}>
-              <Play size={18} /> Start Training <ChevronRight size={18} />
-            </button>
-          </div>
-        </div>
-      )}
-
-      {/* STEP 5: EVALUATION */}
-      {step === 5 && metrics && (
-        <div className="card">
-          <h2><Activity /> Model Evaluation</h2>
-          <p style={{ color: 'var(--text-secondary)' }}>Model '{modelName}' trained successfully.</p>
-
-          <div className="metrics-grid">
-            {Object.entries(metrics).map(([key, value]) => (
-              <div className="metric-card" key={key}>
-                <div className="metric-value">
-                  {typeof value === 'number' ? (value > 1 && key !== 'rmse' && key !== 'mae' ? value : value.toFixed(4)) : value}
-                </div>
-                <div className="metric-label">{key}</div>
-              </div>
-            ))}
-          </div>
-
-          <div className="chart-container">
-            <h3 className="chart-title"><Activity size={18} /> Actual vs Predicted (Sample)</h3>
-            <ResponsiveContainer width="100%" height="80%">
-              {modelType === 'regression' ? (
-                <LineChart data={plotData}>
-                  <CartesianGrid strokeDasharray="3 3" stroke="#334155" />
-                  <XAxis dataKey="index" stroke="#94a3b8" />
-                  <YAxis stroke="#94a3b8" />
-                  <Tooltip
-                    contentStyle={{ backgroundColor: '#1e293b', border: '1px solid #334155', borderRadius: '8px' }}
-                    itemStyle={{ color: '#f8fafc' }}
-                  />
-                  <Legend />
-                  <Line type="monotone" dataKey="actual" stroke="#818cf8" strokeWidth={2} dot={{ r: 4 }} activeDot={{ r: 6 }} />
-                  <Line type="monotone" dataKey="predicted" stroke="#10b981" strokeWidth={2} dot={{ r: 4 }} activeDot={{ r: 6 }} />
-                </LineChart>
-              ) : (
-                <BarChart data={plotData}>
-                  <CartesianGrid strokeDasharray="3 3" stroke="#334155" />
-                  <XAxis dataKey="index" stroke="#94a3b8" />
-                  <YAxis stroke="#94a3b8" />
-                  <Tooltip
-                    contentStyle={{ backgroundColor: '#1e293b', border: '1px solid #334155', borderRadius: '8px' }}
-                  />
-                  <Bar dataKey="actual" fill="#818cf8" radius={[4, 4, 0, 0]} />
-                  <Bar dataKey="predicted" fill="#10b981" radius={[4, 4, 0, 0]} />
-                </BarChart>
-              )}
-            </ResponsiveContainer>
-          </div>
-
-          <div style={{ marginTop: '40px', display: 'flex', justifyContent: 'center', gap: '20px' }}>
-            <button className="btn btn-secondary" onClick={handleStartOver}>
-              Start Over
-            </button>
-            <button className="btn btn-success" onClick={downloadModel}>
-              <Download size={18} /> Download Model (.joblib)
-            </button>
-          </div>
-        </div>
-      )}
+        )}
+      </div>
 
     </div>
   );

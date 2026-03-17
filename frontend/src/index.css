@@ -22,14 +22,26 @@ body {
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
   background-color: var(--bg-color);
   color: var(--text-primary);
-  min-height: 100vh;
+  height: 100vh;
+  overflow: hidden;
   line-height: 1.5;
 }
 
 .app-container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 40px 20px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.main-content {
+  flex: 1;
+  overflow-y: auto;
+  padding-right: 5px;
+  padding-bottom: 20px;
 }
 
 .header {
