@@ -1,0 +1,1001 @@
+email_id,subject,message,num_links,num_exclamations,contains_promo,sender_reputation,label
+1,Security Alert,Please review the attached document,0,0,0,0.73,0
+2,Security Alert,Reminder for tomorrow meeting,1,0,0,0.83,0
+3,Limited Time Offer,Limited offer expires tonight,3,2,1,0.24,1
+4,Win a Free iPhone,Click now to claim your reward,3,2,1,0.16,1
+5,Invoice Attached,Attached latest report,0,0,0,0.70,0
+6,Weekly Newsletter,Please review the attached document,1,0,0,0.82,0
+7,Project Update,Reminder for tomorrow meeting,1,0,0,0.88,0
+8,Claim Your Prize,Limited offer expires tonight,3,1,1,0.28,1
+9,Limited Time Offer,Click now to claim your reward,3,3,1,0.30,1
+10,Claim Your Prize,Limited offer expires tonight,3,2,1,0.24,1
+11,Cheap Loans Available,Buy now and get discount,3,1,1,0.38,1
+12,Limited Time Offer,Limited offer expires tonight,3,3,1,0.45,1
+13,Invoice Attached,Reminder for tomorrow meeting,0,0,0,0.84,0
+14,Invoice Attached,Please review the attached document,0,0,0,0.89,0
+15,Limited Time Offer,Click now to claim your reward,4,1,1,0.38,1
+16,Cheap Loans Available,Click now to claim your reward,3,1,1,0.44,1
+17,Weekly Newsletter,Please review the attached document,0,0,0,0.73,0
+18,Claim Your Prize,Buy now and get discount,4,1,1,0.43,1
+19,Security Alert,Attached latest report,0,0,0,0.73,0
+20,Weekly Newsletter,Reminder for tomorrow meeting,0,0,0,0.90,0
+21,Project Update,Attached latest report,1,0,0,0.87,0
+22,Weekly Newsletter,Please review the attached document,0,0,0,0.90,0
+23,Weekly Newsletter,Please review the attached document,1,0,0,0.72,0
+24,Security Alert,Attached latest report,1,0,0,0.89,0
+25,Weekly Newsletter,Attached latest report,0,0,0,0.81,0
+26,Weekly Newsletter,Reminder for tomorrow meeting,0,0,0,0.75,0
+27,Weekly Newsletter,Attached latest report,1,0,0,0.93,0
+28,Security Alert,Attached latest report,1,0,0,0.75,0
+29,Win a Free iPhone,Click now to claim your reward,4,3,1,0.14,1
+30,Project Update,Please review the attached document,0,0,0,0.85,0
+31,Win a Free iPhone,Limited offer expires tonight,2,2,1,0.29,1
+32,Exclusive Deal,Buy now and get discount,2,2,1,0.16,1
+33,Limited Time Offer,Click now to claim your reward,2,2,1,0.42,1
+34,Project Update,Attached latest report,1,0,0,0.93,0
+35,Cheap Loans Available,Limited offer expires tonight,3,1,1,0.10,1
+36,Claim Your Prize,Buy now and get discount,2,1,1,0.41,1
+37,Exclusive Deal,Buy now and get discount,3,2,1,0.20,1
+38,Limited Time Offer,Buy now and get discount,2,3,1,0.32,1
+39,Weekly Newsletter,Attached latest report,0,0,0,0.89,0
+40,Invoice Attached,Attached latest report,0,0,0,0.93,0
+41,Limited Time Offer,Buy now and get discount,4,3,1,0.21,1
+42,Invoice Attached,Attached latest report,0,0,0,0.87,0
+43,Security Alert,Please review the attached document,0,0,0,0.74,0
+44,Project Update,Attached latest report,1,0,0,0.89,0
+45,Limited Time Offer,Click now to claim your reward,2,1,1,0.17,1
+46,Weekly Newsletter,Please review the attached document,1,0,0,0.94,0
+47,Exclusive Deal,Limited offer expires tonight,3,2,1,0.19,1
+48,Cheap Loans Available,Click now to claim your reward,4,1,1,0.13,1
+49,Claim Your Prize,Click now to claim your reward,3,1,1,0.12,1
+50,Project Update,Attached latest report,0,0,0,0.89,0
+51,Project Update,Attached latest report,0,0,0,0.85,0
+52,Weekly Newsletter,Attached latest report,0,0,0,0.90,0
+53,Win a Free iPhone,Click now to claim your reward,3,3,1,0.16,1
+54,Security Alert,Please review the attached document,1,0,0,0.95,0
+55,Project Update,Attached latest report,1,0,0,0.88,0
+56,Weekly Newsletter,Reminder for tomorrow meeting,1,0,0,0.87,0
+57,Limited Time Offer,Buy now and get discount,2,3,1,0.16,1
+58,Security Alert,Please review the attached document,0,0,0,0.73,0
+59,Exclusive Deal,Limited offer expires tonight,3,1,1,0.43,1
+60,Claim Your Prize,Click now to claim your reward,4,3,1,0.12,1
+61,Exclusive Deal,Click now to claim your reward,4,3,1,0.13,1
+62,Meeting Reminder,Please review the attached document,1,0,0,0.89,0
+63,Win a Free iPhone,Click now to claim your reward,4,2,1,0.21,1
+64,Claim Your Prize,Limited offer expires tonight,2,3,1,0.36,1
+65,Cheap Loans Available,Buy now and get discount,4,2,1,0.33,1
+66,Limited Time Offer,Click now to claim your reward,2,1,1,0.23,1
+67,Claim Your Prize,Buy now and get discount,4,1,1,0.41,1
+68,Win a Free iPhone,Limited offer expires tonight,2,1,1,0.30,1
+69,Win a Free iPhone,Buy now and get discount,3,3,1,0.35,1
+70,Exclusive Deal,Buy now and get discount,4,3,1,0.29,1
+71,Exclusive Deal,Limited offer expires tonight,4,2,1,0.31,1
+72,Win a Free iPhone,Click now to claim your reward,2,3,1,0.17,1
+73,Cheap Loans Available,Buy now and get discount,4,3,1,0.43,1
+74,Cheap Loans Available,Click now to claim your reward,2,2,1,0.20,1
+75,Weekly Newsletter,Reminder for tomorrow meeting,0,0,0,0.87,0
+76,Exclusive Deal,Buy now and get discount,4,1,1,0.34,1
+77,Project Update,Please review the attached document,0,0,0,0.81,0
+78,Exclusive Deal,Limited offer expires tonight,2,1,1,0.41,1
+79,Claim Your Prize,Limited offer expires tonight,4,3,1,0.20,1
+80,Claim Your Prize,Limited offer expires tonight,4,3,1,0.23,1
+81,Exclusive Deal,Limited offer expires tonight,2,1,1,0.21,1
+82,Claim Your Prize,Buy now and get discount,2,3,1,0.10,1
+83,Cheap Loans Available,Click now to claim your reward,3,3,1,0.24,1
+84,Win a Free iPhone,Buy now and get discount,2,1,1,0.13,1
+85,Meeting Reminder,Attached latest report,0,0,0,0.83,0
+86,Invoice Attached,Reminder for tomorrow meeting,0,0,0,0.94,0
+87,Cheap Loans Available,Limited offer expires tonight,3,2,1,0.37,1
+88,Meeting Reminder,Attached latest report,0,0,0,0.87,0
+89,Meeting Reminder,Attached latest report,1,0,0,0.86,0
+90,Meeting Reminder,Please review the attached document,1,0,0,0.71,0
+91,Exclusive Deal,Click now to claim your reward,3,2,1,0.13,1
+92,Claim Your Prize,Buy now and get discount,3,3,1,0.15,1
+93,Limited Time Offer,Buy now and get discount,2,3,1,0.16,1
+94,Win a Free iPhone,Click now to claim your reward,3,3,1,0.14,1
+95,Claim Your Prize,Click now to claim your reward,3,2,1,0.39,1
+96,Win a Free iPhone,Limited offer expires tonight,3,3,1,0.38,1
+97,Claim Your Prize,Buy now and get discount,2,3,1,0.39,1
+98,Claim Your Prize,Limited offer expires tonight,3,1,1,0.41,1
+99,Meeting Reminder,Reminder for tomorrow meeting,0,0,0,0.73,0
+100,Exclusive Deal,Buy now and get discount,3,3,1,0.30,1
+101,Limited Time Offer,Limited offer expires tonight,3,2,1,0.41,1
+102,Exclusive Deal,Limited offer expires tonight,2,2,1,0.20,1
+103,Weekly Newsletter,Please review the attached document,1,0,0,0.79,0
+104,Cheap Loans Available,Click now to claim your reward,2,1,1,0.41,1
+105,Project Update,Attached latest report,0,0,0,0.94,0
+106,Project Update,Please review the attached document,0,0,0,0.92,0
+107,Weekly Newsletter,Reminder for tomorrow meeting,1,0,0,0.72,0
+108,Project Update,Reminder for tomorrow meeting,1,0,0,0.76,0
+109,Project Update,Attached latest report,0,0,0,0.89,0
+110,Exclusive Deal,Buy now and get discount,3,2,1,0.11,1
+111,Cheap Loans Available,Buy now and get discount,3,1,1,0.18,1
+112,Invoice Attached,Reminder for tomorrow meeting,1,0,0,0.86,0
+113,Win a Free iPhone,Limited offer expires tonight,3,2,1,0.38,1
+114,Claim Your Prize,Limited offer expires tonight,3,1,1,0.26,1
+115,Win a Free iPhone,Buy now and get discount,2,1,1,0.18,1
+116,Exclusive Deal,Click now to claim your reward,4,3,1,0.18,1
+117,Win a Free iPhone,Buy now and get discount,4,3,1,0.33,1
+118,Limited Time Offer,Limited offer expires tonight,2,3,1,0.20,1
+119,Exclusive Deal,Limited offer expires tonight,4,2,1,0.15,1
+120,Invoice Attached,Attached latest report,0,0,0,0.88,0
+121,Win a Free iPhone,Limited offer expires tonight,4,3,1,0.45,1
+122,Claim Your Prize,Limited offer expires tonight,4,3,1,0.38,1
+123,Cheap Loans Available,Buy now and get discount,2,2,1,0.37,1
+124,Claim Your Prize,Limited offer expires tonight,2,1,1,0.11,1
+125,Project Update,Reminder for tomorrow meeting,1,0,0,0.88,0
+126,Exclusive Deal,Click now to claim your reward,4,1,1,0.27,1
+127,Win a Free iPhone,Limited offer expires tonight,3,3,1,0.33,1
+128,Weekly Newsletter,Attached latest report,0,0,0,0.73,0
+129,Meeting Reminder,Reminder for tomorrow meeting,0,0,0,0.83,0
+130,Invoice Attached,Reminder for tomorrow meeting,0,0,0,0.78,0
+131,Exclusive Deal,Click now to claim your reward,2,3,1,0.27,1
+132,Claim Your Prize,Buy now and get discount,2,2,1,0.37,1
+133,Claim Your Prize,Limited offer expires tonight,3,2,1,0.37,1
+134,Weekly Newsletter,Please review the attached document,1,0,0,0.74,0
+135,Claim Your Prize,Limited offer expires tonight,2,2,1,0.24,1
+136,Meeting Reminder,Attached latest report,0,0,0,0.92,0
+137,Exclusive Deal,Buy now and get discount,4,2,1,0.45,1
+138,Claim Your Prize,Limited offer expires tonight,2,1,1,0.24,1
+139,Win a Free iPhone,Click now to claim your reward,2,3,1,0.19,1
+140,Meeting Reminder,Attached latest report,1,0,0,0.81,0
+141,Weekly Newsletter,Please review the attached document,0,0,0,0.72,0
+142,Invoice Attached,Reminder for tomorrow meeting,1,0,0,0.86,0
+143,Win a Free iPhone,Limited offer expires tonight,3,1,1,0.32,1
+144,Win a Free iPhone,Click now to claim your reward,3,1,1,0.27,1
+145,Limited Time Offer,Buy now and get discount,2,3,1,0.33,1
+146,Cheap Loans Available,Limited offer expires tonight,4,1,1,0.24,1
+147,Meeting Reminder,Please review the attached document,1,0,0,0.94,0
+148,Limited Time Offer,Limited offer expires tonight,3,3,1,0.23,1
+149,Exclusive Deal,Click now to claim your reward,3,3,1,0.30,1
+150,Exclusive Deal,Buy now and get discount,4,2,1,0.17,1
+151,Exclusive Deal,Limited offer expires tonight,2,3,1,0.20,1
+152,Project Update,Attached latest report,1,0,0,0.75,0
+153,Project Update,Attached latest report,0,0,0,0.71,0
+154,Exclusive Deal,Buy now and get discount,2,1,1,0.39,1
+155,Limited Time Offer,Click now to claim your reward,3,3,1,0.42,1
+156,Cheap Loans Available,Click now to claim your reward,2,1,1,0.42,1
+157,Cheap Loans Available,Buy now and get discount,3,2,1,0.29,1
+158,Win a Free iPhone,Limited offer expires tonight,3,1,1,0.20,1
+159,Exclusive Deal,Buy now and get discount,4,1,1,0.32,1
+160,Project Update,Reminder for tomorrow meeting,1,0,0,0.87,0
+161,Project Update,Attached latest report,0,0,0,0.82,0
+162,Claim Your Prize,Limited offer expires tonight,3,1,1,0.38,1
+163,Claim Your Prize,Click now to claim your reward,2,1,1,0.23,1
+164,Exclusive Deal,Limited offer expires tonight,4,3,1,0.24,1
+165,Project Update,Attached latest report,0,0,0,0.80,0
+166,Invoice Attached,Attached latest report,0,0,0,0.90,0
+167,Win a Free iPhone,Limited offer expires tonight,3,1,1,0.15,1
+168,Win a Free iPhone,Limited offer expires tonight,2,1,1,0.33,1
+169,Meeting Reminder,Reminder for tomorrow meeting,0,0,0,0.89,0
+170,Cheap Loans Available,Buy now and get discount,2,2,1,0.19,1
+171,Weekly Newsletter,Attached latest report,1,0,0,0.73,0
+172,Invoice Attached,Attached latest report,1,0,0,0.89,0
+173,Exclusive Deal,Limited offer expires tonight,3,3,1,0.28,1
+174,Cheap Loans Available,Click now to claim your reward,3,1,1,0.20,1
+175,Exclusive Deal,Buy now and get discount,3,2,1,0.16,1
+176,Limited Time Offer,Click now to claim your reward,3,2,1,0.43,1
+177,Claim Your Prize,Limited offer expires tonight,4,2,1,0.24,1
+178,Meeting Reminder,Attached latest report,1,0,0,0.80,0
+179,Cheap Loans Available,Limited offer expires tonight,3,1,1,0.27,1
+180,Security Alert,Attached latest report,0,0,0,0.82,0
+181,Exclusive Deal,Click now to claim your reward,2,2,1,0.35,1
+182,Project Update,Attached latest report,1,0,0,0.89,0
+183,Project Update,Attached latest report,0,0,0,0.80,0
+184,Win a Free iPhone,Buy now and get discount,2,2,1,0.35,1
+185,Limited Time Offer,Limited offer expires tonight,2,1,1,0.27,1
+186,Cheap Loans Available,Buy now and get discount,3,1,1,0.43,1
+187,Project Update,Please review the attached document,0,0,0,0.88,0
+188,Limited Time Offer,Click now to claim your reward,4,1,1,0.16,1
+189,Cheap Loans Available,Click now to claim your reward,4,1,1,0.37,1
+190,Exclusive Deal,Buy now and get discount,4,2,1,0.20,1
+191,Meeting Reminder,Attached latest report,1,0,0,0.79,0
+192,Limited Time Offer,Limited offer expires tonight,3,2,1,0.21,1
+193,Claim Your Prize,Buy now and get discount,4,1,1,0.16,1
+194,Project Update,Reminder for tomorrow meeting,0,0,0,0.90,0
+195,Weekly Newsletter,Reminder for tomorrow meeting,1,0,0,0.71,0
+196,Exclusive Deal,Buy now and get discount,4,2,1,0.16,1
+197,Invoice Attached,Please review the attached document,0,0,0,0.83,0
+198,Project Update,Reminder for tomorrow meeting,0,0,0,0.73,0
+199,Claim Your Prize,Click now to claim your reward,3,1,1,0.37,1
+200,Limited Time Offer,Limited offer expires tonight,2,2,1,0.37,1
+201,Win a Free iPhone,Click now to claim your reward,2,3,1,0.28,1
+202,Security Alert,Reminder for tomorrow meeting,1,0,0,0.95,0
+203,Claim Your Prize,Buy now and get discount,3,2,1,0.34,1
+204,Cheap Loans Available,Click now to claim your reward,3,2,1,0.22,1
+205,Exclusive Deal,Buy now and get discount,3,2,1,0.19,1
+206,Claim Your Prize,Buy now and get discount,3,3,1,0.40,1
+207,Security Alert,Reminder for tomorrow meeting,0,0,0,0.81,0
+208,Exclusive Deal,Buy now and get discount,3,2,1,0.14,1
+209,Limited Time Offer,Click now to claim your reward,4,3,1,0.34,1
+210,Cheap Loans Available,Click now to claim your reward,2,3,1,0.34,1
+211,Limited Time Offer,Limited offer expires tonight,3,2,1,0.45,1
+212,Exclusive Deal,Limited offer expires tonight,3,1,1,0.24,1
+213,Limited Time Offer,Limited offer expires tonight,2,2,1,0.45,1
+214,Meeting Reminder,Please review the attached document,1,0,0,0.95,0
+215,Exclusive Deal,Click now to claim your reward,4,1,1,0.32,1
+216,Meeting Reminder,Reminder for tomorrow meeting,0,0,0,0.72,0
+217,Project Update,Please review the attached document,1,0,0,0.79,0
+218,Project Update,Please review the attached document,1,0,0,0.82,0
+219,Security Alert,Attached latest report,1,0,0,0.93,0
+220,Invoice Attached,Please review the attached document,1,0,0,0.80,0
+221,Cheap Loans Available,Limited offer expires tonight,4,1,1,0.21,1
+222,Project Update,Reminder for tomorrow meeting,1,0,0,0.87,0
+223,Invoice Attached,Attached latest report,0,0,0,0.91,0
+224,Win a Free iPhone,Buy now and get discount,4,3,1,0.14,1
+225,Meeting Reminder,Reminder for tomorrow meeting,1,0,0,0.78,0
+226,Security Alert,Reminder for tomorrow meeting,1,0,0,0.71,0
+227,Meeting Reminder,Attached latest report,0,0,0,0.75,0
+228,Cheap Loans Available,Limited offer expires tonight,3,2,1,0.43,1
+229,Claim Your Prize,Limited offer expires tonight,2,2,1,0.13,1
+230,Meeting Reminder,Attached latest report,0,0,0,0.95,0
+231,Cheap Loans Available,Click now to claim your reward,3,3,1,0.35,1
+232,Security Alert,Reminder for tomorrow meeting,0,0,0,0.92,0
+233,Security Alert,Attached latest report,1,0,0,0.73,0
+234,Limited Time Offer,Limited offer expires tonight,3,1,1,0.41,1
+235,Weekly Newsletter,Please review the attached document,0,0,0,0.80,0
+236,Win a Free iPhone,Limited offer expires tonight,4,2,1,0.15,1
+237,Win a Free iPhone,Buy now and get discount,2,2,1,0.15,1
+238,Security Alert,Please review the attached document,0,0,0,0.71,0
+239,Meeting Reminder,Attached latest report,1,0,0,0.84,0
+240,Weekly Newsletter,Please review the attached document,0,0,0,0.85,0
+241,Meeting Reminder,Reminder for tomorrow meeting,0,0,0,0.76,0
+242,Exclusive Deal,Buy now and get discount,4,2,1,0.23,1
+243,Limited Time Offer,Buy now and get discount,2,3,1,0.26,1
+244,Security Alert,Reminder for tomorrow meeting,1,0,0,0.76,0
+245,Weekly Newsletter,Attached latest report,1,0,0,0.72,0
+246,Limited Time Offer,Buy now and get discount,4,3,1,0.13,1
+247,Invoice Attached,Reminder for tomorrow meeting,0,0,0,0.75,0
+248,Invoice Attached,Reminder for tomorrow meeting,0,0,0,0.77,0
+249,Meeting Reminder,Attached latest report,0,0,0,0.78,0
+250,Security Alert,Reminder for tomorrow meeting,0,0,0,0.70,0
+251,Cheap Loans Available,Click now to claim your reward,3,3,1,0.30,1
+252,Weekly Newsletter,Attached latest report,0,0,0,0.75,0
+253,Claim Your Prize,Click now to claim your reward,4,1,1,0.27,1
+254,Project Update,Reminder for tomorrow meeting,0,0,0,0.80,0
+255,Cheap Loans Available,Click now to claim your reward,2,1,1,0.10,1
+256,Invoice Attached,Attached latest report,0,0,0,0.89,0
+257,Claim Your Prize,Limited offer expires tonight,4,3,1,0.36,1
+258,Claim Your Prize,Limited offer expires tonight,4,1,1,0.24,1
+259,Project Update,Reminder for tomorrow meeting,1,0,0,0.75,0
+260,Win a Free iPhone,Click now to claim your reward,3,1,1,0.24,1
+261,Meeting Reminder,Please review the attached document,0,0,0,0.76,0
+262,Meeting Reminder,Reminder for tomorrow meeting,0,0,0,0.79,0
+263,Meeting Reminder,Reminder for tomorrow meeting,0,0,0,0.75,0
+264,Exclusive Deal,Click now to claim your reward,3,1,1,0.40,1
+265,Cheap Loans Available,Limited offer expires tonight,3,2,1,0.39,1
+266,Invoice Attached,Please review the attached document,0,0,0,0.93,0
+267,Cheap Loans Available,Limited offer expires tonight,4,2,1,0.18,1
+268,Cheap Loans Available,Click now to claim your reward,3,2,1,0.33,1
+269,Limited Time Offer,Limited offer expires tonight,4,1,1,0.37,1
+270,Invoice Attached,Attached latest report,1,0,0,0.86,0
+271,Project Update,Reminder for tomorrow meeting,1,0,0,0.82,0
+272,Project Update,Please review the attached document,0,0,0,0.70,0
+273,Win a Free iPhone,Click now to claim your reward,4,2,1,0.18,1
+274,Cheap Loans Available,Click now to claim your reward,4,3,1,0.30,1
+275,Win a Free iPhone,Click now to claim your reward,2,2,1,0.27,1
+276,Win a Free iPhone,Click now to claim your reward,3,3,1,0.27,1
+277,Invoice Attached,Please review the attached document,0,0,0,0.93,0
+278,Cheap Loans Available,Click now to claim your reward,2,1,1,0.25,1
+279,Claim Your Prize,Buy now and get discount,4,3,1,0.16,1
+280,Weekly Newsletter,Attached latest report,0,0,0,0.83,0
+281,Win a Free iPhone,Click now to claim your reward,4,2,1,0.28,1
+282,Invoice Attached,Reminder for tomorrow meeting,1,0,0,0.81,0
+283,Invoice Attached,Reminder for tomorrow meeting,0,0,0,0.91,0
+284,Project Update,Reminder for tomorrow meeting,0,0,0,0.78,0
+285,Limited Time Offer,Buy now and get discount,3,3,1,0.12,1
+286,Project Update,Please review the attached document,0,0,0,0.90,0
+287,Cheap Loans Available,Buy now and get discount,2,2,1,0.11,1
+288,Limited Time Offer,Limited offer expires tonight,3,2,1,0.26,1
+289,Invoice Attached,Please review the attached document,1,0,0,0.89,0
+290,Exclusive Deal,Limited offer expires tonight,3,3,1,0.34,1
+291,Weekly Newsletter,Attached latest report,0,0,0,0.88,0
+292,Limited Time Offer,Click now to claim your reward,3,1,1,0.20,1
+293,Win a Free iPhone,Click now to claim your reward,2,3,1,0.36,1
+294,Claim Your Prize,Click now to claim your reward,4,2,1,0.43,1
+295,Cheap Loans Available,Click now to claim your reward,3,1,1,0.40,1
+296,Project Update,Reminder for tomorrow meeting,1,0,0,0.71,0
+297,Claim Your Prize,Click now to claim your reward,3,3,1,0.25,1
+298,Claim Your Prize,Buy now and get discount,4,1,1,0.39,1
+299,Weekly Newsletter,Reminder for tomorrow meeting,0,0,0,0.70,0
+300,Cheap Loans Available,Buy now and get discount,4,2,1,0.28,1
+301,Limited Time Offer,Buy now and get discount,2,3,1,0.27,1
+302,Meeting Reminder,Reminder for tomorrow meeting,1,0,0,0.75,0
+303,Win a Free iPhone,Buy now and get discount,3,3,1,0.18,1
+304,Meeting Reminder,Attached latest report,0,0,0,0.87,0
+305,Limited Time Offer,Click now to claim your reward,2,3,1,0.43,1
+306,Exclusive Deal,Limited offer expires tonight,2,3,1,0.33,1
+307,Security Alert,Attached latest report,0,0,0,0.91,0
+308,Security Alert,Attached latest report,1,0,0,0.92,0
+309,Meeting Reminder,Please review the attached document,1,0,0,0.92,0
+310,Project Update,Please review the attached document,1,0,0,0.76,0
+311,Limited Time Offer,Click now to claim your reward,3,1,1,0.29,1
+312,Win a Free iPhone,Limited offer expires tonight,3,3,1,0.41,1
+313,Win a Free iPhone,Click now to claim your reward,3,3,1,0.26,1
+314,Claim Your Prize,Click now to claim your reward,4,3,1,0.17,1
+315,Exclusive Deal,Click now to claim your reward,3,3,1,0.36,1
+316,Win a Free iPhone,Limited offer expires tonight,4,3,1,0.36,1
+317,Project Update,Reminder for tomorrow meeting,0,0,0,0.89,0
+318,Weekly Newsletter,Please review the attached document,1,0,0,0.76,0
+319,Win a Free iPhone,Buy now and get discount,3,1,1,0.40,1
+320,Project Update,Reminder for tomorrow meeting,0,0,0,0.80,0
+321,Invoice Attached,Please review the attached document,1,0,0,0.90,0
+322,Project Update,Reminder for tomorrow meeting,0,0,0,0.72,0
+323,Cheap Loans Available,Click now to claim your reward,2,3,1,0.29,1
+324,Claim Your Prize,Buy now and get discount,4,3,1,0.38,1
+325,Cheap Loans Available,Buy now and get discount,3,3,1,0.40,1
+326,Win a Free iPhone,Click now to claim your reward,2,3,1,0.28,1
+327,Meeting Reminder,Attached latest report,1,0,0,0.84,0
+328,Invoice Attached,Reminder for tomorrow meeting,1,0,0,0.95,0
+329,Project Update,Please review the attached document,1,0,0,0.90,0
+330,Security Alert,Reminder for tomorrow meeting,0,0,0,0.78,0
+331,Cheap Loans Available,Click now to claim your reward,4,1,1,0.35,1
+332,Win a Free iPhone,Click now to claim your reward,4,2,1,0.11,1
+333,Win a Free iPhone,Buy now and get discount,2,1,1,0.12,1
+334,Cheap Loans Available,Limited offer expires tonight,4,3,1,0.22,1
+335,Exclusive Deal,Buy now and get discount,4,3,1,0.17,1
+336,Exclusive Deal,Click now to claim your reward,2,1,1,0.35,1
+337,Invoice Attached,Please review the attached document,0,0,0,0.77,0
+338,Invoice Attached,Reminder for tomorrow meeting,0,0,0,0.91,0
+339,Security Alert,Attached latest report,0,0,0,0.78,0
+340,Invoice Attached,Attached latest report,1,0,0,0.83,0
+341,Invoice Attached,Reminder for tomorrow meeting,0,0,0,0.74,0
+342,Limited Time Offer,Limited offer expires tonight,3,1,1,0.30,1
+343,Project Update,Please review the attached document,0,0,0,0.81,0
+344,Weekly Newsletter,Reminder for tomorrow meeting,0,0,0,0.79,0
+345,Weekly Newsletter,Attached latest report,0,0,0,0.92,0
+346,Limited Time Offer,Buy now and get discount,4,1,1,0.26,1
+347,Meeting Reminder,Please review the attached document,1,0,0,0.76,0
+348,Weekly Newsletter,Please review the attached document,1,0,0,0.74,0
+349,Claim Your Prize,Click now to claim your reward,2,2,1,0.17,1
+350,Invoice Attached,Attached latest report,0,0,0,0.76,0
+351,Exclusive Deal,Click now to claim your reward,2,3,1,0.24,1
+352,Limited Time Offer,Limited offer expires tonight,4,2,1,0.22,1
+353,Security Alert,Reminder for tomorrow meeting,0,0,0,0.95,0
+354,Claim Your Prize,Limited offer expires tonight,3,1,1,0.42,1
+355,Win a Free iPhone,Limited offer expires tonight,2,2,1,0.24,1
+356,Meeting Reminder,Reminder for tomorrow meeting,0,0,0,0.71,0
+357,Meeting Reminder,Attached latest report,1,0,0,0.80,0
+358,Win a Free iPhone,Buy now and get discount,4,1,1,0.33,1
+359,Cheap Loans Available,Limited offer expires tonight,3,2,1,0.30,1
+360,Cheap Loans Available,Click now to claim your reward,3,3,1,0.35,1
+361,Win a Free iPhone,Limited offer expires tonight,2,3,1,0.32,1
+362,Meeting Reminder,Attached latest report,1,0,0,0.84,0
+363,Win a Free iPhone,Limited offer expires tonight,3,3,1,0.26,1
+364,Meeting Reminder,Reminder for tomorrow meeting,1,0,0,0.88,0
+365,Cheap Loans Available,Limited offer expires tonight,2,3,1,0.30,1
+366,Cheap Loans Available,Click now to claim your reward,4,3,1,0.27,1
+367,Win a Free iPhone,Limited offer expires tonight,2,2,1,0.27,1
+368,Invoice Attached,Reminder for tomorrow meeting,0,0,0,0.83,0
+369,Invoice Attached,Reminder for tomorrow meeting,1,0,0,0.92,0
+370,Security Alert,Please review the attached document,0,0,0,0.88,0
+371,Claim Your Prize,Click now to claim your reward,4,2,1,0.18,1
+372,Limited Time Offer,Limited offer expires tonight,4,2,1,0.27,1
+373,Invoice Attached,Attached latest report,1,0,0,0.91,0
+374,Win a Free iPhone,Limited offer expires tonight,2,2,1,0.44,1
+375,Meeting Reminder,Attached latest report,0,0,0,0.77,0
+376,Security Alert,Attached latest report,0,0,0,0.91,0
+377,Cheap Loans Available,Limited offer expires tonight,2,3,1,0.12,1
+378,Security Alert,Reminder for tomorrow meeting,0,0,0,0.74,0
+379,Invoice Attached,Please review the attached document,0,0,0,0.86,0
+380,Limited Time Offer,Limited offer expires tonight,2,1,1,0.13,1
+381,Claim Your Prize,Buy now and get discount,3,2,1,0.40,1
+382,Limited Time Offer,Limited offer expires tonight,3,2,1,0.36,1
+383,Weekly Newsletter,Attached latest report,0,0,0,0.86,0
+384,Security Alert,Attached latest report,0,0,0,0.71,0
+385,Meeting Reminder,Please review the attached document,0,0,0,0.79,0
+386,Invoice Attached,Reminder for tomorrow meeting,1,0,0,0.75,0
+387,Weekly Newsletter,Attached latest report,1,0,0,0.93,0
+388,Meeting Reminder,Please review the attached document,1,0,0,0.85,0
+389,Limited Time Offer,Click now to claim your reward,4,3,1,0.43,1
+390,Weekly Newsletter,Attached latest report,0,0,0,0.86,0
+391,Meeting Reminder,Please review the attached document,1,0,0,0.72,0
+392,Security Alert,Reminder for tomorrow meeting,1,0,0,0.90,0
+393,Limited Time Offer,Buy now and get discount,2,1,1,0.26,1
+394,Weekly Newsletter,Please review the attached document,1,0,0,0.89,0
+395,Exclusive Deal,Buy now and get discount,2,1,1,0.13,1
+396,Project Update,Attached latest report,1,0,0,0.79,0
+397,Limited Time Offer,Click now to claim your reward,4,3,1,0.19,1
+398,Claim Your Prize,Limited offer expires tonight,2,3,1,0.18,1
+399,Invoice Attached,Reminder for tomorrow meeting,0,0,0,0.72,0
+400,Claim Your Prize,Buy now and get discount,2,2,1,0.10,1
+401,Win a Free iPhone,Limited offer expires tonight,2,1,1,0.11,1
+402,Meeting Reminder,Reminder for tomorrow meeting,0,0,0,0.79,0
+403,Invoice Attached,Attached latest report,0,0,0,0.95,0
+404,Claim Your Prize,Limited offer expires tonight,2,3,1,0.17,1
+405,Security Alert,Please review the attached document,1,0,0,0.85,0
+406,Weekly Newsletter,Attached latest report,0,0,0,0.92,0
+407,Claim Your Prize,Click now to claim your reward,3,1,1,0.17,1
+408,Invoice Attached,Please review the attached document,0,0,0,0.81,0
+409,Meeting Reminder,Attached latest report,0,0,0,0.79,0
+410,Meeting Reminder,Please review the attached document,0,0,0,0.88,0
+411,Invoice Attached,Attached latest report,1,0,0,0.76,0
+412,Weekly Newsletter,Reminder for tomorrow meeting,0,0,0,0.83,0
+413,Invoice Attached,Please review the attached document,0,0,0,0.89,0
+414,Weekly Newsletter,Attached latest report,0,0,0,0.83,0
+415,Invoice Attached,Attached latest report,0,0,0,0.94,0
+416,Limited Time Offer,Buy now and get discount,4,1,1,0.31,1
+417,Claim Your Prize,Click now to claim your reward,4,1,1,0.27,1
+418,Security Alert,Please review the attached document,1,0,0,0.87,0
+419,Weekly Newsletter,Please review the attached document,1,0,0,0.84,0
+420,Limited Time Offer,Click now to claim your reward,4,1,1,0.38,1
+421,Limited Time Offer,Buy now and get discount,3,1,1,0.35,1
+422,Limited Time Offer,Click now to claim your reward,2,2,1,0.29,1
+423,Limited Time Offer,Click now to claim your reward,2,3,1,0.15,1
+424,Win a Free iPhone,Limited offer expires tonight,4,1,1,0.28,1
+425,Limited Time Offer,Click now to claim your reward,2,1,1,0.26,1
+426,Claim Your Prize,Click now to claim your reward,4,3,1,0.24,1
+427,Claim Your Prize,Buy now and get discount,2,1,1,0.11,1
+428,Invoice Attached,Reminder for tomorrow meeting,1,0,0,0.94,0
+429,Win a Free iPhone,Limited offer expires tonight,2,3,1,0.23,1
+430,Cheap Loans Available,Limited offer expires tonight,4,3,1,0.30,1
+431,Limited Time Offer,Buy now and get discount,4,2,1,0.44,1
+432,Meeting Reminder,Reminder for tomorrow meeting,0,0,0,0.92,0
+433,Weekly Newsletter,Attached latest report,0,0,0,0.75,0
+434,Win a Free iPhone,Buy now and get discount,2,2,1,0.14,1
+435,Weekly Newsletter,Please review the attached document,0,0,0,0.88,0
+436,Weekly Newsletter,Please review the attached document,1,0,0,0.89,0
+437,Project Update,Attached latest report,0,0,0,0.83,0
+438,Weekly Newsletter,Attached latest report,0,0,0,0.82,0
+439,Claim Your Prize,Click now to claim your reward,2,2,1,0.14,1
+440,Cheap Loans Available,Click now to claim your reward,2,2,1,0.13,1
+441,Cheap Loans Available,Limited offer expires tonight,2,1,1,0.27,1
+442,Cheap Loans Available,Buy now and get discount,4,2,1,0.14,1
+443,Invoice Attached,Please review the attached document,1,0,0,0.80,0
+444,Limited Time Offer,Buy now and get discount,2,1,1,0.42,1
+445,Weekly Newsletter,Please review the attached document,1,0,0,0.78,0
+446,Cheap Loans Available,Limited offer expires tonight,3,3,1,0.36,1
+447,Security Alert,Attached latest report,0,0,0,0.79,0
+448,Weekly Newsletter,Reminder for tomorrow meeting,1,0,0,0.72,0
+449,Exclusive Deal,Limited offer expires tonight,3,3,1,0.36,1
+450,Limited Time Offer,Buy now and get discount,3,1,1,0.20,1
+451,Cheap Loans Available,Buy now and get discount,3,1,1,0.16,1
+452,Meeting Reminder,Please review the attached document,0,0,0,0.75,0
+453,Meeting Reminder,Please review the attached document,0,0,0,0.72,0
+454,Meeting Reminder,Reminder for tomorrow meeting,1,0,0,0.92,0
+455,Project Update,Attached latest report,0,0,0,0.79,0
+456,Cheap Loans Available,Click now to claim your reward,2,1,1,0.28,1
+457,Meeting Reminder,Please review the attached document,0,0,0,0.75,0
+458,Cheap Loans Available,Buy now and get discount,2,1,1,0.20,1
+459,Project Update,Attached latest report,1,0,0,0.82,0
+460,Project Update,Please review the attached document,0,0,0,0.85,0
+461,Project Update,Attached latest report,0,0,0,0.86,0
+462,Invoice Attached,Please review the attached document,0,0,0,0.74,0
+463,Meeting Reminder,Reminder for tomorrow meeting,0,0,0,0.77,0
+464,Claim Your Prize,Click now to claim your reward,4,1,1,0.12,1
+465,Project Update,Please review the attached document,0,0,0,0.88,0
+466,Cheap Loans Available,Buy now and get discount,4,3,1,0.27,1
+467,Security Alert,Please review the attached document,1,0,0,0.87,0
+468,Claim Your Prize,Click now to claim your reward,2,1,1,0.32,1
+469,Meeting Reminder,Reminder for tomorrow meeting,0,0,0,0.71,0
+470,Win a Free iPhone,Buy now and get discount,3,3,1,0.13,1
+471,Win a Free iPhone,Limited offer expires tonight,3,3,1,0.28,1
+472,Meeting Reminder,Please review the attached document,1,0,0,0.95,0
+473,Claim Your Prize,Limited offer expires tonight,4,2,1,0.23,1
+474,Exclusive Deal,Limited offer expires tonight,2,3,1,0.22,1
+475,Exclusive Deal,Buy now and get discount,4,1,1,0.19,1
+476,Weekly Newsletter,Attached latest report,1,0,0,0.92,0
+477,Security Alert,Reminder for tomorrow meeting,1,0,0,0.75,0
+478,Claim Your Prize,Limited offer expires tonight,2,1,1,0.24,1
+479,Claim Your Prize,Buy now and get discount,3,1,1,0.24,1
+480,Project Update,Attached latest report,0,0,0,0.95,0
+481,Project Update,Reminder for tomorrow meeting,0,0,0,0.74,0
+482,Cheap Loans Available,Click now to claim your reward,2,1,1,0.16,1
+483,Meeting Reminder,Reminder for tomorrow meeting,1,0,0,0.84,0
+484,Cheap Loans Available,Buy now and get discount,3,1,1,0.34,1
+485,Meeting Reminder,Attached latest report,1,0,0,0.73,0
+486,Security Alert,Attached latest report,1,0,0,0.95,0
+487,Cheap Loans Available,Buy now and get discount,2,3,1,0.29,1
+488,Meeting Reminder,Reminder for tomorrow meeting,1,0,0,0.70,0
+489,Project Update,Please review the attached document,1,0,0,0.82,0
+490,Win a Free iPhone,Click now to claim your reward,3,2,1,0.40,1
+491,Exclusive Deal,Limited offer expires tonight,2,1,1,0.39,1
+492,Weekly Newsletter,Reminder for tomorrow meeting,0,0,0,0.88,0
+493,Claim Your Prize,Buy now and get discount,4,2,1,0.11,1
+494,Cheap Loans Available,Buy now and get discount,3,2,1,0.17,1
+495,Claim Your Prize,Buy now and get discount,3,3,1,0.39,1
+496,Claim Your Prize,Click now to claim your reward,2,2,1,0.17,1
+497,Security Alert,Please review the attached document,0,0,0,0.78,0
+498,Limited Time Offer,Buy now and get discount,4,2,1,0.37,1
+499,Weekly Newsletter,Please review the attached document,0,0,0,0.76,0
+500,Win a Free iPhone,Click now to claim your reward,2,1,1,0.26,1
+501,Project Update,Reminder for tomorrow meeting,1,0,0,0.87,0
+502,Claim Your Prize,Limited offer expires tonight,2,2,1,0.29,1
+503,Invoice Attached,Reminder for tomorrow meeting,1,0,0,0.78,0
+504,Limited Time Offer,Limited offer expires tonight,2,1,1,0.36,1
+505,Security Alert,Attached latest report,1,0,0,0.74,0
+506,Invoice Attached,Reminder for tomorrow meeting,0,0,0,0.76,0
+507,Weekly Newsletter,Reminder for tomorrow meeting,1,0,0,0.87,0
+508,Project Update,Reminder for tomorrow meeting,0,0,0,0.73,0
+509,Win a Free iPhone,Buy now and get discount,3,3,1,0.23,1
+510,Security Alert,Reminder for tomorrow meeting,1,0,0,0.88,0
+511,Security Alert,Please review the attached document,1,0,0,0.78,0
+512,Invoice Attached,Reminder for tomorrow meeting,1,0,0,0.79,0
+513,Win a Free iPhone,Click now to claim your reward,4,2,1,0.16,1
+514,Exclusive Deal,Buy now and get discount,4,3,1,0.43,1
+515,Meeting Reminder,Please review the attached document,0,0,0,0.74,0
+516,Claim Your Prize,Click now to claim your reward,3,3,1,0.35,1
+517,Cheap Loans Available,Buy now and get discount,4,1,1,0.12,1
+518,Exclusive Deal,Limited offer expires tonight,2,3,1,0.13,1
+519,Limited Time Offer,Buy now and get discount,2,1,1,0.11,1
+520,Win a Free iPhone,Limited offer expires tonight,4,3,1,0.42,1
+521,Project Update,Please review the attached document,0,0,0,0.83,0
+522,Exclusive Deal,Click now to claim your reward,3,3,1,0.44,1
+523,Exclusive Deal,Click now to claim your reward,4,1,1,0.22,1
+524,Project Update,Please review the attached document,1,0,0,0.94,0
+525,Invoice Attached,Please review the attached document,1,0,0,0.78,0
+526,Invoice Attached,Attached latest report,0,0,0,0.78,0
+527,Meeting Reminder,Reminder for tomorrow meeting,0,0,0,0.74,0
+528,Project Update,Attached latest report,0,0,0,0.82,0
+529,Weekly Newsletter,Please review the attached document,1,0,0,0.89,0
+530,Project Update,Reminder for tomorrow meeting,1,0,0,0.75,0
+531,Security Alert,Reminder for tomorrow meeting,0,0,0,0.95,0
+532,Claim Your Prize,Click now to claim your reward,4,1,1,0.12,1
+533,Claim Your Prize,Buy now and get discount,3,1,1,0.20,1
+534,Project Update,Please review the attached document,1,0,0,0.70,0
+535,Claim Your Prize,Buy now and get discount,2,1,1,0.40,1
+536,Meeting Reminder,Attached latest report,1,0,0,0.79,0
+537,Cheap Loans Available,Limited offer expires tonight,3,1,1,0.22,1
+538,Meeting Reminder,Reminder for tomorrow meeting,0,0,0,0.83,0
+539,Project Update,Please review the attached document,1,0,0,0.74,0
+540,Cheap Loans Available,Buy now and get discount,3,3,1,0.22,1
+541,Meeting Reminder,Attached latest report,1,0,0,0.85,0
+542,Win a Free iPhone,Click now to claim your reward,3,1,1,0.26,1
+543,Project Update,Please review the attached document,0,0,0,0.83,0
+544,Limited Time Offer,Limited offer expires tonight,2,3,1,0.14,1
+545,Security Alert,Please review the attached document,0,0,0,0.80,0
+546,Exclusive Deal,Click now to claim your reward,4,3,1,0.27,1
+547,Limited Time Offer,Click now to claim your reward,4,2,1,0.21,1
+548,Invoice Attached,Reminder for tomorrow meeting,0,0,0,0.88,0
+549,Meeting Reminder,Reminder for tomorrow meeting,0,0,0,0.74,0
+550,Claim Your Prize,Click now to claim your reward,4,2,1,0.26,1
+551,Weekly Newsletter,Please review the attached document,1,0,0,0.81,0
+552,Project Update,Attached latest report,1,0,0,0.94,0
+553,Meeting Reminder,Please review the attached document,0,0,0,0.84,0
+554,Weekly Newsletter,Attached latest report,0,0,0,0.79,0
+555,Limited Time Offer,Limited offer expires tonight,2,3,1,0.34,1
+556,Meeting Reminder,Please review the attached document,1,0,0,0.74,0
+557,Weekly Newsletter,Please review the attached document,0,0,0,0.87,0
+558,Project Update,Attached latest report,0,0,0,0.81,0
+559,Weekly Newsletter,Please review the attached document,0,0,0,0.88,0
+560,Claim Your Prize,Click now to claim your reward,2,1,1,0.15,1
+561,Weekly Newsletter,Reminder for tomorrow meeting,0,0,0,0.91,0
+562,Cheap Loans Available,Buy now and get discount,2,1,1,0.31,1
+563,Win a Free iPhone,Click now to claim your reward,4,1,1,0.43,1
+564,Security Alert,Attached latest report,0,0,0,0.95,0
+565,Cheap Loans Available,Click now to claim your reward,3,3,1,0.29,1
+566,Security Alert,Reminder for tomorrow meeting,1,0,0,0.84,0
+567,Weekly Newsletter,Reminder for tomorrow meeting,0,0,0,0.89,0
+568,Weekly Newsletter,Please review the attached document,0,0,0,0.75,0
+569,Invoice Attached,Please review the attached document,1,0,0,0.72,0
+570,Exclusive Deal,Click now to claim your reward,3,2,1,0.17,1
+571,Meeting Reminder,Reminder for tomorrow meeting,1,0,0,0.85,0
+572,Cheap Loans Available,Buy now and get discount,3,1,1,0.27,1
+573,Security Alert,Reminder for tomorrow meeting,1,0,0,0.83,0
+574,Project Update,Attached latest report,0,0,0,0.74,0
+575,Weekly Newsletter,Attached latest report,1,0,0,0.91,0
+576,Cheap Loans Available,Click now to claim your reward,4,3,1,0.37,1
+577,Win a Free iPhone,Buy now and get discount,4,1,1,0.18,1
+578,Invoice Attached,Please review the attached document,1,0,0,0.74,0
+579,Project Update,Attached latest report,0,0,0,0.77,0
+580,Claim Your Prize,Limited offer expires tonight,2,1,1,0.36,1
+581,Win a Free iPhone,Limited offer expires tonight,4,2,1,0.20,1
+582,Project Update,Reminder for tomorrow meeting,0,0,0,0.93,0
+583,Invoice Attached,Attached latest report,0,0,0,0.72,0
+584,Cheap Loans Available,Buy now and get discount,3,1,1,0.35,1
+585,Win a Free iPhone,Buy now and get discount,4,1,1,0.11,1
+586,Project Update,Reminder for tomorrow meeting,0,0,0,0.77,0
+587,Invoice Attached,Reminder for tomorrow meeting,1,0,0,0.90,0
+588,Claim Your Prize,Click now to claim your reward,4,1,1,0.18,1
+589,Win a Free iPhone,Limited offer expires tonight,4,2,1,0.14,1
+590,Win a Free iPhone,Buy now and get discount,4,2,1,0.16,1
+591,Meeting Reminder,Attached latest report,0,0,0,0.84,0
+592,Exclusive Deal,Limited offer expires tonight,3,2,1,0.18,1
+593,Meeting Reminder,Attached latest report,0,0,0,0.88,0
+594,Cheap Loans Available,Buy now and get discount,3,1,1,0.40,1
+595,Claim Your Prize,Click now to claim your reward,4,3,1,0.35,1
+596,Claim Your Prize,Buy now and get discount,2,2,1,0.34,1
+597,Project Update,Please review the attached document,0,0,0,0.79,0
+598,Claim Your Prize,Click now to claim your reward,4,2,1,0.18,1
+599,Exclusive Deal,Click now to claim your reward,2,3,1,0.42,1
+600,Meeting Reminder,Reminder for tomorrow meeting,0,0,0,0.83,0
+601,Cheap Loans Available,Click now to claim your reward,2,2,1,0.34,1
+602,Project Update,Please review the attached document,1,0,0,0.75,0
+603,Exclusive Deal,Click now to claim your reward,3,3,1,0.16,1
+604,Weekly Newsletter,Attached latest report,1,0,0,0.78,0
+605,Limited Time Offer,Buy now and get discount,4,1,1,0.30,1
+606,Project Update,Attached latest report,1,0,0,0.93,0
+607,Limited Time Offer,Buy now and get discount,4,2,1,0.18,1
+608,Exclusive Deal,Click now to claim your reward,3,3,1,0.31,1
+609,Cheap Loans Available,Limited offer expires tonight,4,2,1,0.33,1
+610,Limited Time Offer,Limited offer expires tonight,3,2,1,0.43,1
+611,Project Update,Reminder for tomorrow meeting,0,0,0,0.87,0
+612,Limited Time Offer,Click now to claim your reward,2,3,1,0.17,1
+613,Invoice Attached,Please review the attached document,1,0,0,0.72,0
+614,Limited Time Offer,Limited offer expires tonight,2,2,1,0.17,1
+615,Exclusive Deal,Click now to claim your reward,2,3,1,0.32,1
+616,Weekly Newsletter,Reminder for tomorrow meeting,1,0,0,0.78,0
+617,Exclusive Deal,Click now to claim your reward,3,2,1,0.38,1
+618,Win a Free iPhone,Limited offer expires tonight,4,2,1,0.17,1
+619,Limited Time Offer,Buy now and get discount,4,1,1,0.21,1
+620,Project Update,Reminder for tomorrow meeting,1,0,0,0.81,0
+621,Claim Your Prize,Buy now and get discount,2,1,1,0.40,1
+622,Cheap Loans Available,Buy now and get discount,4,3,1,0.19,1
+623,Meeting Reminder,Please review the attached document,0,0,0,0.72,0
+624,Cheap Loans Available,Click now to claim your reward,3,2,1,0.11,1
+625,Project Update,Attached latest report,1,0,0,0.78,0
+626,Claim Your Prize,Click now to claim your reward,2,1,1,0.33,1
+627,Security Alert,Reminder for tomorrow meeting,0,0,0,0.86,0
+628,Security Alert,Attached latest report,0,0,0,0.78,0
+629,Claim Your Prize,Buy now and get discount,2,2,1,0.17,1
+630,Project Update,Please review the attached document,0,0,0,0.83,0
+631,Security Alert,Please review the attached document,0,0,0,0.74,0
+632,Meeting Reminder,Reminder for tomorrow meeting,0,0,0,0.75,0
+633,Limited Time Offer,Limited offer expires tonight,3,1,1,0.34,1
+634,Claim Your Prize,Click now to claim your reward,2,1,1,0.30,1
+635,Meeting Reminder,Please review the attached document,1,0,0,0.86,0
+636,Cheap Loans Available,Limited offer expires tonight,4,3,1,0.34,1
+637,Win a Free iPhone,Limited offer expires tonight,4,2,1,0.20,1
+638,Security Alert,Please review the attached document,0,0,0,0.79,0
+639,Cheap Loans Available,Buy now and get discount,4,2,1,0.29,1
+640,Project Update,Reminder for tomorrow meeting,1,0,0,0.87,0
+641,Project Update,Attached latest report,1,0,0,0.77,0
+642,Cheap Loans Available,Click now to claim your reward,3,3,1,0.41,1
+643,Weekly Newsletter,Please review the attached document,1,0,0,0.76,0
+644,Limited Time Offer,Buy now and get discount,2,2,1,0.23,1
+645,Win a Free iPhone,Buy now and get discount,3,1,1,0.45,1
+646,Meeting Reminder,Attached latest report,1,0,0,0.86,0
+647,Security Alert,Please review the attached document,1,0,0,0.94,0
+648,Project Update,Attached latest report,0,0,0,0.77,0
+649,Weekly Newsletter,Attached latest report,0,0,0,0.90,0
+650,Meeting Reminder,Please review the attached document,0,0,0,0.94,0
+651,Claim Your Prize,Limited offer expires tonight,3,3,1,0.10,1
+652,Cheap Loans Available,Click now to claim your reward,4,1,1,0.26,1
+653,Security Alert,Attached latest report,1,0,0,0.83,0
+654,Cheap Loans Available,Limited offer expires tonight,4,2,1,0.39,1
+655,Claim Your Prize,Limited offer expires tonight,3,2,1,0.27,1
+656,Cheap Loans Available,Buy now and get discount,4,1,1,0.40,1
+657,Project Update,Please review the attached document,0,0,0,0.71,0
+658,Project Update,Please review the attached document,1,0,0,0.93,0
+659,Limited Time Offer,Buy now and get discount,3,2,1,0.25,1
+660,Meeting Reminder,Attached latest report,1,0,0,0.90,0
+661,Exclusive Deal,Click now to claim your reward,4,3,1,0.37,1
+662,Meeting Reminder,Please review the attached document,0,0,0,0.81,0
+663,Cheap Loans Available,Buy now and get discount,3,2,1,0.45,1
+664,Claim Your Prize,Limited offer expires tonight,2,2,1,0.23,1
+665,Project Update,Attached latest report,1,0,0,0.79,0
+666,Invoice Attached,Please review the attached document,1,0,0,0.77,0
+667,Cheap Loans Available,Click now to claim your reward,2,1,1,0.22,1
+668,Weekly Newsletter,Please review the attached document,1,0,0,0.94,0
+669,Limited Time Offer,Click now to claim your reward,2,3,1,0.25,1
+670,Weekly Newsletter,Attached latest report,1,0,0,0.92,0
+671,Cheap Loans Available,Limited offer expires tonight,4,2,1,0.44,1
+672,Claim Your Prize,Click now to claim your reward,4,1,1,0.31,1
+673,Cheap Loans Available,Click now to claim your reward,4,1,1,0.15,1
+674,Meeting Reminder,Reminder for tomorrow meeting,1,0,0,0.91,0
+675,Exclusive Deal,Limited offer expires tonight,3,3,1,0.24,1
+676,Exclusive Deal,Click now to claim your reward,2,3,1,0.13,1
+677,Security Alert,Please review the attached document,1,0,0,0.92,0
+678,Exclusive Deal,Buy now and get discount,3,2,1,0.20,1
+679,Exclusive Deal,Click now to claim your reward,4,3,1,0.39,1
+680,Weekly Newsletter,Please review the attached document,1,0,0,0.78,0
+681,Claim Your Prize,Buy now and get discount,4,2,1,0.27,1
+682,Claim Your Prize,Buy now and get discount,3,2,1,0.31,1
+683,Security Alert,Reminder for tomorrow meeting,1,0,0,0.77,0
+684,Cheap Loans Available,Buy now and get discount,4,2,1,0.34,1
+685,Invoice Attached,Please review the attached document,1,0,0,0.78,0
+686,Weekly Newsletter,Reminder for tomorrow meeting,0,0,0,0.76,0
+687,Exclusive Deal,Limited offer expires tonight,2,3,1,0.35,1
+688,Security Alert,Attached latest report,0,0,0,0.85,0
+689,Security Alert,Attached latest report,1,0,0,0.94,0
+690,Meeting Reminder,Please review the attached document,0,0,0,0.93,0
+691,Exclusive Deal,Buy now and get discount,2,3,1,0.33,1
+692,Claim Your Prize,Limited offer expires tonight,2,1,1,0.16,1
+693,Claim Your Prize,Buy now and get discount,3,3,1,0.39,1
+694,Meeting Reminder,Reminder for tomorrow meeting,1,0,0,0.94,0
+695,Security Alert,Please review the attached document,1,0,0,0.95,0
+696,Claim Your Prize,Click now to claim your reward,4,2,1,0.42,1
+697,Project Update,Please review the attached document,1,0,0,0.90,0
+698,Weekly Newsletter,Please review the attached document,0,0,0,0.80,0
+699,Exclusive Deal,Limited offer expires tonight,4,2,1,0.45,1
+700,Exclusive Deal,Buy now and get discount,3,1,1,0.38,1
+701,Weekly Newsletter,Reminder for tomorrow meeting,0,0,0,0.91,0
+702,Weekly Newsletter,Attached latest report,1,0,0,0.72,0
+703,Limited Time Offer,Click now to claim your reward,2,1,1,0.36,1
+704,Exclusive Deal,Buy now and get discount,3,3,1,0.38,1
+705,Weekly Newsletter,Reminder for tomorrow meeting,0,0,0,0.94,0
+706,Cheap Loans Available,Buy now and get discount,2,3,1,0.27,1
+707,Weekly Newsletter,Please review the attached document,0,0,0,0.84,0
+708,Claim Your Prize,Buy now and get discount,4,1,1,0.42,1
+709,Security Alert,Reminder for tomorrow meeting,0,0,0,0.70,0
+710,Cheap Loans Available,Click now to claim your reward,3,1,1,0.23,1
+711,Cheap Loans Available,Click now to claim your reward,3,3,1,0.11,1
+712,Exclusive Deal,Click now to claim your reward,4,1,1,0.28,1
+713,Weekly Newsletter,Please review the attached document,0,0,0,0.77,0
+714,Claim Your Prize,Click now to claim your reward,4,3,1,0.14,1
+715,Project Update,Reminder for tomorrow meeting,0,0,0,0.79,0
+716,Invoice Attached,Please review the attached document,1,0,0,0.75,0
+717,Meeting Reminder,Please review the attached document,0,0,0,0.86,0
+718,Weekly Newsletter,Attached latest report,1,0,0,0.95,0
+719,Weekly Newsletter,Please review the attached document,0,0,0,0.76,0
+720,Security Alert,Reminder for tomorrow meeting,1,0,0,0.85,0
+721,Security Alert,Please review the attached document,0,0,0,0.76,0
+722,Weekly Newsletter,Attached latest report,1,0,0,0.85,0
+723,Claim Your Prize,Buy now and get discount,2,1,1,0.35,1
+724,Cheap Loans Available,Buy now and get discount,4,2,1,0.15,1
+725,Security Alert,Please review the attached document,1,0,0,0.89,0
+726,Weekly Newsletter,Please review the attached document,1,0,0,0.92,0
+727,Project Update,Attached latest report,1,0,0,0.76,0
+728,Limited Time Offer,Buy now and get discount,4,1,1,0.22,1
+729,Project Update,Reminder for tomorrow meeting,1,0,0,0.86,0
+730,Claim Your Prize,Buy now and get discount,4,3,1,0.17,1
+731,Security Alert,Attached latest report,1,0,0,0.71,0
+732,Win a Free iPhone,Limited offer expires tonight,4,1,1,0.23,1
+733,Exclusive Deal,Limited offer expires tonight,2,3,1,0.41,1
+734,Invoice Attached,Please review the attached document,0,0,0,0.74,0
+735,Security Alert,Reminder for tomorrow meeting,1,0,0,0.73,0
+736,Cheap Loans Available,Buy now and get discount,4,2,1,0.23,1
+737,Exclusive Deal,Buy now and get discount,4,2,1,0.16,1
+738,Security Alert,Attached latest report,0,0,0,0.73,0
+739,Security Alert,Please review the attached document,1,0,0,0.87,0
+740,Claim Your Prize,Click now to claim your reward,2,2,1,0.16,1
+741,Cheap Loans Available,Buy now and get discount,2,1,1,0.22,1
+742,Win a Free iPhone,Buy now and get discount,2,3,1,0.34,1
+743,Cheap Loans Available,Limited offer expires tonight,3,1,1,0.11,1
+744,Limited Time Offer,Buy now and get discount,2,1,1,0.20,1
+745,Project Update,Please review the attached document,0,0,0,0.89,0
+746,Exclusive Deal,Buy now and get discount,3,2,1,0.26,1
+747,Claim Your Prize,Buy now and get discount,4,3,1,0.44,1
+748,Security Alert,Please review the attached document,1,0,0,0.76,0
+749,Cheap Loans Available,Click now to claim your reward,2,2,1,0.21,1
+750,Weekly Newsletter,Please review the attached document,0,0,0,0.76,0
+751,Exclusive Deal,Limited offer expires tonight,2,3,1,0.35,1
+752,Limited Time Offer,Buy now and get discount,4,3,1,0.31,1
+753,Project Update,Attached latest report,0,0,0,0.85,0
+754,Limited Time Offer,Buy now and get discount,2,3,1,0.41,1
+755,Invoice Attached,Reminder for tomorrow meeting,0,0,0,0.82,0
+756,Exclusive Deal,Buy now and get discount,2,3,1,0.18,1
+757,Meeting Reminder,Attached latest report,0,0,0,0.90,0
+758,Claim Your Prize,Limited offer expires tonight,4,1,1,0.44,1
+759,Limited Time Offer,Click now to claim your reward,2,3,1,0.20,1
+760,Weekly Newsletter,Reminder for tomorrow meeting,0,0,0,0.94,0
+761,Cheap Loans Available,Limited offer expires tonight,4,2,1,0.26,1
+762,Security Alert,Please review the attached document,1,0,0,0.77,0
+763,Cheap Loans Available,Limited offer expires tonight,3,2,1,0.31,1
+764,Cheap Loans Available,Click now to claim your reward,4,3,1,0.14,1
+765,Meeting Reminder,Attached latest report,0,0,0,0.76,0
+766,Claim Your Prize,Limited offer expires tonight,3,1,1,0.11,1
+767,Cheap Loans Available,Buy now and get discount,2,2,1,0.23,1
+768,Weekly Newsletter,Reminder for tomorrow meeting,1,0,0,0.77,0
+769,Limited Time Offer,Buy now and get discount,2,3,1,0.23,1
+770,Win a Free iPhone,Buy now and get discount,2,1,1,0.29,1
+771,Project Update,Please review the attached document,0,0,0,0.82,0
+772,Limited Time Offer,Buy now and get discount,2,2,1,0.30,1
+773,Weekly Newsletter,Reminder for tomorrow meeting,1,0,0,0.85,0
+774,Project Update,Please review the attached document,0,0,0,0.79,0
+775,Project Update,Attached latest report,0,0,0,0.74,0
+776,Win a Free iPhone,Limited offer expires tonight,4,2,1,0.21,1
+777,Meeting Reminder,Please review the attached document,1,0,0,0.70,0
+778,Weekly Newsletter,Please review the attached document,0,0,0,0.87,0
+779,Weekly Newsletter,Please review the attached document,1,0,0,0.82,0
+780,Project Update,Reminder for tomorrow meeting,1,0,0,0.91,0
+781,Invoice Attached,Please review the attached document,1,0,0,0.81,0
+782,Limited Time Offer,Limited offer expires tonight,2,2,1,0.12,1
+783,Limited Time Offer,Buy now and get discount,3,2,1,0.28,1
+784,Security Alert,Reminder for tomorrow meeting,1,0,0,0.79,0
+785,Win a Free iPhone,Limited offer expires tonight,2,1,1,0.39,1
+786,Limited Time Offer,Click now to claim your reward,4,2,1,0.16,1
+787,Meeting Reminder,Please review the attached document,1,0,0,0.90,0
+788,Meeting Reminder,Reminder for tomorrow meeting,0,0,0,0.75,0
+789,Invoice Attached,Please review the attached document,1,0,0,0.88,0
+790,Weekly Newsletter,Please review the attached document,1,0,0,0.83,0
+791,Invoice Attached,Attached latest report,0,0,0,0.83,0
+792,Weekly Newsletter,Attached latest report,0,0,0,0.92,0
+793,Project Update,Reminder for tomorrow meeting,0,0,0,0.81,0
+794,Weekly Newsletter,Attached latest report,0,0,0,0.76,0
+795,Limited Time Offer,Click now to claim your reward,2,2,1,0.22,1
+796,Win a Free iPhone,Buy now and get discount,4,2,1,0.40,1
+797,Limited Time Offer,Buy now and get discount,4,1,1,0.35,1
+798,Security Alert,Attached latest report,1,0,0,0.82,0
+799,Invoice Attached,Reminder for tomorrow meeting,0,0,0,0.80,0
+800,Meeting Reminder,Attached latest report,1,0,0,0.81,0
+801,Meeting Reminder,Please review the attached document,0,0,0,0.76,0
+802,Project Update,Reminder for tomorrow meeting,0,0,0,0.94,0
+803,Project Update,Reminder for tomorrow meeting,0,0,0,0.86,0
+804,Project Update,Please review the attached document,1,0,0,0.84,0
+805,Claim Your Prize,Buy now and get discount,3,1,1,0.36,1
+806,Win a Free iPhone,Buy now and get discount,3,2,1,0.40,1
+807,Claim Your Prize,Limited offer expires tonight,4,3,1,0.43,1
+808,Win a Free iPhone,Limited offer expires tonight,2,2,1,0.10,1
+809,Win a Free iPhone,Limited offer expires tonight,4,3,1,0.44,1
+810,Limited Time Offer,Buy now and get discount,3,1,1,0.14,1
+811,Cheap Loans Available,Limited offer expires tonight,2,3,1,0.12,1
+812,Cheap Loans Available,Buy now and get discount,2,2,1,0.19,1
+813,Claim Your Prize,Limited offer expires tonight,2,2,1,0.43,1
+814,Claim Your Prize,Limited offer expires tonight,4,1,1,0.16,1
+815,Meeting Reminder,Attached latest report,1,0,0,0.92,0
+816,Weekly Newsletter,Reminder for tomorrow meeting,1,0,0,0.90,0
+817,Project Update,Attached latest report,0,0,0,0.88,0
+818,Project Update,Reminder for tomorrow meeting,0,0,0,0.80,0
+819,Meeting Reminder,Reminder for tomorrow meeting,1,0,0,0.82,0
+820,Exclusive Deal,Click now to claim your reward,2,3,1,0.13,1
+821,Win a Free iPhone,Click now to claim your reward,2,2,1,0.16,1
+822,Weekly Newsletter,Please review the attached document,0,0,0,0.73,0
+823,Security Alert,Please review the attached document,0,0,0,0.95,0
+824,Claim Your Prize,Limited offer expires tonight,4,2,1,0.27,1
+825,Exclusive Deal,Buy now and get discount,4,2,1,0.37,1
+826,Limited Time Offer,Buy now and get discount,4,1,1,0.39,1
+827,Cheap Loans Available,Buy now and get discount,4,3,1,0.12,1
+828,Cheap Loans Available,Limited offer expires tonight,4,1,1,0.41,1
+829,Cheap Loans Available,Buy now and get discount,2,3,1,0.16,1
+830,Weekly Newsletter,Attached latest report,1,0,0,0.89,0
+831,Limited Time Offer,Click now to claim your reward,2,1,1,0.34,1
+832,Weekly Newsletter,Attached latest report,0,0,0,0.75,0
+833,Exclusive Deal,Buy now and get discount,4,1,1,0.20,1
+834,Cheap Loans Available,Limited offer expires tonight,4,2,1,0.41,1
+835,Cheap Loans Available,Limited offer expires tonight,3,1,1,0.26,1
+836,Project Update,Please review the attached document,1,0,0,0.82,0
+837,Meeting Reminder,Reminder for tomorrow meeting,1,0,0,0.81,0
+838,Security Alert,Please review the attached document,0,0,0,0.83,0
+839,Exclusive Deal,Buy now and get discount,3,2,1,0.43,1
+840,Meeting Reminder,Attached latest report,1,0,0,0.73,0
+841,Win a Free iPhone,Buy now and get discount,3,3,1,0.10,1
+842,Cheap Loans Available,Buy now and get discount,2,1,1,0.28,1
+843,Weekly Newsletter,Reminder for tomorrow meeting,0,0,0,0.84,0
+844,Invoice Attached,Please review the attached document,1,0,0,0.72,0
+845,Exclusive Deal,Limited offer expires tonight,2,1,1,0.29,1
+846,Project Update,Attached latest report,0,0,0,0.79,0
+847,Invoice Attached,Attached latest report,0,0,0,0.76,0
+848,Claim Your Prize,Limited offer expires tonight,3,1,1,0.30,1
+849,Meeting Reminder,Reminder for tomorrow meeting,0,0,0,0.83,0
+850,Limited Time Offer,Limited offer expires tonight,3,3,1,0.23,1
+851,Project Update,Reminder for tomorrow meeting,1,0,0,0.71,0
+852,Security Alert,Reminder for tomorrow meeting,1,0,0,0.82,0
+853,Project Update,Please review the attached document,0,0,0,0.90,0
+854,Security Alert,Please review the attached document,1,0,0,0.89,0
+855,Invoice Attached,Reminder for tomorrow meeting,0,0,0,0.78,0
+856,Exclusive Deal,Limited offer expires tonight,2,1,1,0.40,1
+857,Invoice Attached,Attached latest report,1,0,0,0.92,0
+858,Invoice Attached,Please review the attached document,1,0,0,0.78,0
+859,Exclusive Deal,Limited offer expires tonight,2,2,1,0.19,1
+860,Project Update,Attached latest report,0,0,0,0.77,0
+861,Project Update,Reminder for tomorrow meeting,0,0,0,0.87,0
+862,Project Update,Please review the attached document,0,0,0,0.85,0
+863,Win a Free iPhone,Buy now and get discount,4,1,1,0.32,1
+864,Meeting Reminder,Reminder for tomorrow meeting,0,0,0,0.73,0
+865,Claim Your Prize,Buy now and get discount,2,2,1,0.26,1
+866,Cheap Loans Available,Limited offer expires tonight,4,2,1,0.39,1
+867,Project Update,Reminder for tomorrow meeting,0,0,0,0.92,0
+868,Cheap Loans Available,Buy now and get discount,2,1,1,0.39,1
+869,Cheap Loans Available,Buy now and get discount,2,1,1,0.23,1
+870,Claim Your Prize,Limited offer expires tonight,4,3,1,0.15,1
+871,Exclusive Deal,Limited offer expires tonight,4,3,1,0.21,1
+872,Exclusive Deal,Limited offer expires tonight,3,1,1,0.35,1
+873,Claim Your Prize,Click now to claim your reward,4,2,1,0.34,1
+874,Limited Time Offer,Limited offer expires tonight,3,3,1,0.29,1
+875,Exclusive Deal,Limited offer expires tonight,4,3,1,0.25,1
+876,Limited Time Offer,Click now to claim your reward,3,2,1,0.10,1
+877,Weekly Newsletter,Please review the attached document,0,0,0,0.93,0
+878,Project Update,Reminder for tomorrow meeting,0,0,0,0.71,0
+879,Win a Free iPhone,Limited offer expires tonight,2,1,1,0.44,1
+880,Invoice Attached,Attached latest report,0,0,0,0.93,0
+881,Security Alert,Please review the attached document,0,0,0,0.93,0
+882,Win a Free iPhone,Buy now and get discount,3,2,1,0.39,1
+883,Weekly Newsletter,Please review the attached document,0,0,0,0.88,0
+884,Exclusive Deal,Limited offer expires tonight,3,3,1,0.17,1
+885,Claim Your Prize,Buy now and get discount,3,2,1,0.36,1
+886,Claim Your Prize,Buy now and get discount,2,3,1,0.30,1
+887,Meeting Reminder,Reminder for tomorrow meeting,1,0,0,0.92,0
+888,Win a Free iPhone,Limited offer expires tonight,3,3,1,0.30,1
+889,Claim Your Prize,Click now to claim your reward,3,2,1,0.33,1
+890,Weekly Newsletter,Reminder for tomorrow meeting,0,0,0,0.81,0
+891,Security Alert,Reminder for tomorrow meeting,0,0,0,0.75,0
+892,Invoice Attached,Please review the attached document,0,0,0,0.75,0
+893,Project Update,Attached latest report,1,0,0,0.75,0
+894,Cheap Loans Available,Buy now and get discount,4,1,1,0.13,1
+895,Win a Free iPhone,Click now to claim your reward,3,3,1,0.35,1
+896,Limited Time Offer,Click now to claim your reward,4,1,1,0.26,1
+897,Invoice Attached,Attached latest report,1,0,0,0.93,0
+898,Win a Free iPhone,Buy now and get discount,4,1,1,0.18,1
+899,Invoice Attached,Attached latest report,1,0,0,0.71,0
+900,Meeting Reminder,Attached latest report,1,0,0,0.72,0
+901,Weekly Newsletter,Please review the attached document,1,0,0,0.92,0
+902,Weekly Newsletter,Attached latest report,0,0,0,0.86,0
+903,Cheap Loans Available,Limited offer expires tonight,2,2,1,0.10,1
+904,Meeting Reminder,Reminder for tomorrow meeting,1,0,0,0.84,0
+905,Invoice Attached,Please review the attached document,0,0,0,0.77,0
+906,Win a Free iPhone,Limited offer expires tonight,3,2,1,0.14,1
+907,Win a Free iPhone,Buy now and get discount,3,1,1,0.21,1
+908,Claim Your Prize,Click now to claim your reward,3,3,1,0.42,1
+909,Cheap Loans Available,Buy now and get discount,4,1,1,0.33,1
+910,Project Update,Please review the attached document,1,0,0,0.80,0
+911,Project Update,Please review the attached document,1,0,0,0.87,0
+912,Win a Free iPhone,Click now to claim your reward,3,3,1,0.25,1
+913,Cheap Loans Available,Buy now and get discount,2,3,1,0.32,1
+914,Project Update,Please review the attached document,1,0,0,0.85,0
+915,Limited Time Offer,Buy now and get discount,3,2,1,0.24,1
+916,Weekly Newsletter,Reminder for tomorrow meeting,0,0,0,0.87,0
+917,Win a Free iPhone,Limited offer expires tonight,2,1,1,0.40,1
+918,Meeting Reminder,Please review the attached document,0,0,0,0.73,0
+919,Win a Free iPhone,Click now to claim your reward,2,1,1,0.44,1
+920,Meeting Reminder,Please review the attached document,0,0,0,0.94,0
+921,Meeting Reminder,Attached latest report,1,0,0,0.71,0
+922,Meeting Reminder,Reminder for tomorrow meeting,0,0,0,0.90,0
+923,Win a Free iPhone,Click now to claim your reward,3,3,1,0.32,1
+924,Meeting Reminder,Attached latest report,1,0,0,0.84,0
+925,Security Alert,Reminder for tomorrow meeting,1,0,0,0.88,0
+926,Weekly Newsletter,Attached latest report,1,0,0,0.88,0
+927,Cheap Loans Available,Click now to claim your reward,4,3,1,0.22,1
+928,Cheap Loans Available,Limited offer expires tonight,3,3,1,0.30,1
+929,Meeting Reminder,Reminder for tomorrow meeting,1,0,0,0.77,0
+930,Invoice Attached,Please review the attached document,1,0,0,0.74,0
+931,Cheap Loans Available,Click now to claim your reward,3,1,1,0.44,1
+932,Invoice Attached,Reminder for tomorrow meeting,0,0,0,0.92,0
+933,Limited Time Offer,Buy now and get discount,2,1,1,0.34,1
+934,Exclusive Deal,Click now to claim your reward,2,2,1,0.36,1
+935,Exclusive Deal,Limited offer expires tonight,2,2,1,0.27,1
+936,Claim Your Prize,Click now to claim your reward,3,2,1,0.42,1
+937,Project Update,Attached latest report,1,0,0,0.89,0
+938,Limited Time Offer,Buy now and get discount,4,1,1,0.31,1
+939,Limited Time Offer,Click now to claim your reward,4,3,1,0.39,1
+940,Exclusive Deal,Limited offer expires tonight,2,3,1,0.44,1
+941,Meeting Reminder,Reminder for tomorrow meeting,0,0,0,0.95,0
+942,Cheap Loans Available,Buy now and get discount,4,3,1,0.19,1
+943,Meeting Reminder,Reminder for tomorrow meeting,0,0,0,0.80,0
+944,Cheap Loans Available,Buy now and get discount,2,1,1,0.15,1
+945,Cheap Loans Available,Buy now and get discount,2,3,1,0.16,1
+946,Claim Your Prize,Limited offer expires tonight,3,3,1,0.31,1
+947,Meeting Reminder,Attached latest report,1,0,0,0.81,0
+948,Claim Your Prize,Click now to claim your reward,3,2,1,0.30,1
+949,Project Update,Please review the attached document,0,0,0,0.86,0
+950,Claim Your Prize,Limited offer expires tonight,3,2,1,0.28,1
+951,Cheap Loans Available,Buy now and get discount,4,2,1,0.14,1
+952,Project Update,Attached latest report,0,0,0,0.74,0
+953,Invoice Attached,Reminder for tomorrow meeting,0,0,0,0.92,0
+954,Cheap Loans Available,Limited offer expires tonight,4,2,1,0.44,1
+955,Limited Time Offer,Buy now and get discount,3,1,1,0.33,1
+956,Meeting Reminder,Please review the attached document,0,0,0,0.89,0
+957,Cheap Loans Available,Limited offer expires tonight,4,1,1,0.22,1
+958,Project Update,Attached latest report,1,0,0,0.83,0
+959,Cheap Loans Available,Click now to claim your reward,2,1,1,0.29,1
+960,Claim Your Prize,Limited offer expires tonight,3,3,1,0.31,1
+961,Meeting Reminder,Reminder for tomorrow meeting,0,0,0,0.90,0
+962,Limited Time Offer,Click now to claim your reward,3,1,1,0.35,1
+963,Security Alert,Please review the attached document,1,0,0,0.91,0
+964,Invoice Attached,Attached latest report,1,0,0,0.92,0
+965,Cheap Loans Available,Click now to claim your reward,2,3,1,0.30,1
+966,Exclusive Deal,Click now to claim your reward,4,1,1,0.40,1
+967,Win a Free iPhone,Buy now and get discount,3,1,1,0.43,1
+968,Meeting Reminder,Please review the attached document,0,0,0,0.71,0
+969,Limited Time Offer,Buy now and get discount,2,2,1,0.39,1
+970,Exclusive Deal,Limited offer expires tonight,4,3,1,0.29,1
+971,Claim Your Prize,Buy now and get discount,4,2,1,0.31,1
+972,Exclusive Deal,Click now to claim your reward,3,3,1,0.21,1
+973,Invoice Attached,Attached latest report,1,0,0,0.88,0
+974,Security Alert,Please review the attached document,1,0,0,0.89,0
+975,Invoice Attached,Reminder for tomorrow meeting,1,0,0,0.83,0
+976,Exclusive Deal,Limited offer expires tonight,3,2,1,0.33,1
+977,Cheap Loans Available,Click now to claim your reward,3,3,1,0.16,1
+978,Project Update,Attached latest report,0,0,0,0.85,0
+979,Security Alert,Please review the attached document,1,0,0,0.84,0
+980,Weekly Newsletter,Please review the attached document,1,0,0,0.87,0
+981,Claim Your Prize,Limited offer expires tonight,3,1,1,0.35,1
+982,Limited Time Offer,Buy now and get discount,3,2,1,0.33,1
+983,Limited Time Offer,Buy now and get discount,2,1,1,0.27,1
+984,Win a Free iPhone,Click now to claim your reward,2,3,1,0.17,1
+985,Security Alert,Attached latest report,0,0,0,0.82,0
+986,Project Update,Reminder for tomorrow meeting,0,0,0,0.89,0
+987,Weekly Newsletter,Please review the attached document,0,0,0,0.93,0
+988,Security Alert,Reminder for tomorrow meeting,1,0,0,0.80,0
+989,Project Update,Reminder for tomorrow meeting,0,0,0,0.74,0
+990,Project Update,Please review the attached document,1,0,0,0.85,0
+991,Claim Your Prize,Buy now and get discount,2,3,1,0.15,1
+992,Invoice Attached,Reminder for tomorrow meeting,1,0,0,0.78,0
+993,Cheap Loans Available,Buy now and get discount,3,3,1,0.15,1
+994,Cheap Loans Available,Click now to claim your reward,4,2,1,0.41,1
+995,Cheap Loans Available,Click now to claim your reward,2,1,1,0.41,1
+996,Limited Time Offer,Limited offer expires tonight,4,1,1,0.26,1
+997,Exclusive Deal,Limited offer expires tonight,3,1,1,0.23,1
+998,Project Update,Please review the attached document,0,0,0,0.94,0
+999,Meeting Reminder,Reminder for tomorrow meeting,1,0,0,0.71,0
+1000,Project Update,Reminder for tomorrow meeting,0,0,0,0.86,0

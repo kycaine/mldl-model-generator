@@ -30,6 +30,7 @@ function App() {
   const [modelName, setModelName] = useState('Logistic Regression');
   const [metrics, setMetrics] = useState(null);
   const [plotData, setPlotData] = useState([]);
+  const [downloadFormat, setDownloadFormat] = useState('joblib');
 
   const handleFileUpload = async (e) => {
     const file = e.target.files[0];
@@ -119,7 +120,7 @@ function App() {
   };
 
   const downloadModel = () => {
-    window.open(`${API_URL}/download-model?file_id=${fileId}&model_name=${modelName}`, '_blank');
+    window.open(`${API_URL}/download-model?file_id=${fileId}&model_name=${modelName}&format=${downloadFormat}`, '_blank');
   };
 
   const toggleFeature = (colName) => {
@@ -252,6 +253,19 @@ function App() {
                 onChange={e => {
                   setTargetColumn(e.target.value);
                   setFeatureColumns(prev => prev.filter(c => c !== e.target.value));
+                  
+                  // Auto-suggest model type based on schema
+                  const selectedCol = schema.columns.find(c => c.name === e.target.value);
+                  if (selectedCol) {
+                    if (selectedCol.type === 'numeric' && selectedCol.unique_values > 10) {
+                      setModelType('regression');
+                      setModelName('Linear Regression');
+                    } else {
+                      setModelType('classification');
+                      setModelName('Logistic Regression');
+                    }
+                  }
+                  setError(null);
                 }}
               >
                 <option value="">Select Target...</option>
@@ -382,14 +396,29 @@ function App() {
               </ResponsiveContainer>
             </div>
 
-            <div style={{ marginTop: '40px', display: 'flex', justifyContent: 'center', gap: '20px' }}>
-              <button className="btn btn-secondary" onClick={handleStartOver}>
-                Start Over
-              </button>
-              <button className="btn btn-success" onClick={downloadModel}>
-                <Download size={18} /> Download Model (.joblib)
-              </button>
+            <div style={{ marginTop: '40px', display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '15px', flexWrap: 'wrap' }}>
+            <button className="btn btn-secondary" onClick={handleStartOver}>
+              Start Over
+            </button>
+            
+            <div style={{ display: 'flex', alignItems: 'center', gap: '10px', background: 'rgba(141, 110, 99, 0.08)', padding: '5px 15px', borderRadius: '8px', border: '1px solid var(--border-color)' }}>
+              <span style={{ fontSize: '0.9rem', color: 'var(--text-secondary)' }}>Format:</span>
+              <select 
+                className="form-select" 
+                style={{ width: 'auto', padding: '5px 10px', fontSize: '0.9rem', border: 'none', background: 'transparent' }}
+                value={downloadFormat}
+                onChange={(e) => setDownloadFormat(e.target.value)}
+              >
+                <option value="joblib">Joblib (.joblib)</option>
+                <option value="onnx">ONNX (.onnx)</option>
+                <option value="safetensors">Safetensors (.safotensors)</option>
+              </select>
             </div>
+
+            <button className="btn btn-success" onClick={downloadModel}>
+              <Download size={18} /> Download Model
+            </button>
+          </div>
           </div>
         )}
       </div>

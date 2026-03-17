@@ -2,11 +2,11 @@
 
 ML/DL Generator is a modular, full-stack machine learning platform that allows users to upload datasets, perform automated data cleaning and feature engineering, train models, visualize performance, and download trained models.
 
-![App Screenshot](frontend/public/app-view-1.png)
-![App Screenshot](frontend/public/app-view-2.png)
-![App Screenshot](frontend/public/app-view-3.png)
-![App Screenshot](frontend/public/app-view-4.png)
-![App Screenshot](frontend/public/app-view-5.png)
+![App Screenshot](frontend/public/view1.png)
+![App Screenshot](frontend/public/view2.png)
+![App Screenshot](frontend/public/view3.png)
+![App Screenshot](frontend/public/view4.png)
+![App Screenshot](frontend/public/view5.png)
 
 ## 🚀 Features
 

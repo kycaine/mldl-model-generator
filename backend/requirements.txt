@@ -5,3 +5,7 @@ scikit-learn
 joblib
 openpyxl
 python-multipart
+skl2onnx
+onnxruntime
+safetensors
+onnxmltools
