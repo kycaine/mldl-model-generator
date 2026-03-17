@@ -1,8 +1,8 @@
-# Gravity ML - Fullstack ML Model Generator
+# ML/DL Generator - Fullstack ML Model Generator
 
-Gravity ML is a modular, full-stack machine learning platform that allows users to upload datasets, perform automated data cleaning and feature engineering, train models, visualize performance, and download trained models.
+ML/DL Generator is a modular, full-stack machine learning platform that allows users to upload datasets, perform automated data cleaning and feature engineering, train models, visualize performance, and download trained models.
 
-![App Screenshot](frontend/public/screenshot.png) *(Note: Add your screenshot here)*
+![App Screenshot](frontend/public/app-view.png) *(Note: Add your screenshot here)*
 
 ## 🚀 Features
 

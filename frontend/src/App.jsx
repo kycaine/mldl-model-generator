@@ -1,17 +1,17 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { Upload, Database, Settings, Activity, Download, CheckCircle, ChevronRight, Play } from 'lucide-react';
-import { 
-  ResponsiveContainer, 
-  LineChart, 
-  Line, 
-  XAxis, 
-  YAxis, 
-  CartesianGrid, 
-  Tooltip, 
-  Legend, 
-  BarChart, 
-  Bar 
+import {
+  ResponsiveContainer,
+  LineChart,
+  Line,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+  Legend,
+  BarChart,
+  Bar
 } from 'recharts';
 
 const API_URL = 'http://localhost:8000';
@@ -22,7 +22,7 @@ function App() {
   const [schema, setSchema] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
-  
+
   // Selections
   const [targetColumn, setTargetColumn] = useState('');
   const [featureColumns, setFeatureColumns] = useState([]);
@@ -43,8 +43,8 @@ function App() {
     try {
       const res = await axios.post(`${API_URL}/upload`, formData);
       setFileId(res.data.file_id);
-      
-      const schemaRes = await axios.get(`${API_URL}/dataset-columns`, { params: { file_id: res.data.file_id }});
+
+      const schemaRes = await axios.get(`${API_URL}/dataset-columns`, { params: { file_id: res.data.file_id } });
       setSchema(schemaRes.data);
       setStep(2);
     } catch (err) {
@@ -102,7 +102,7 @@ function App() {
         target_column: targetColumn,
         feature_columns: featureColumns
       });
-      
+
       if (res.data && res.data.metrics) {
         setMetrics(res.data.metrics);
         setPlotData(res.data.plot_data || []);
@@ -162,12 +162,12 @@ function App() {
   return (
     <div className="app-container">
       <header className="header">
-        <h1>Gravity ML</h1>
+        <h1>ML/DL Generator</h1>
         <p>Your beautiful, seamless machine learning platform.</p>
       </header>
 
       {renderStepIndicator()}
-      
+
       {error && (
         <div style={{ backgroundColor: 'var(--error)', padding: '15px', borderRadius: '8px', marginBottom: '20px', color: 'white' }}>
           {error}
@@ -179,14 +179,14 @@ function App() {
         <div className="card">
           <h2><Upload /> Upload Dataset</h2>
           <p style={{ marginBottom: '20px', color: 'var(--text-secondary)' }}>Upload your CSV or Excel file to begin building your model.</p>
-          
+
           <label className="upload-area">
             <Upload className="upload-icon" size={48} />
             <h3>Drag & Drop or Click to Upload</h3>
             <p style={{ marginTop: '10px', color: 'var(--text-secondary)' }}>Supports .csv, .xls, .xlsx</p>
             <input type="file" accept=".csv,.xls,.xlsx" onChange={handleFileUpload} disabled={loading} />
           </label>
-          
+
           {loading && <p style={{ textAlign: 'center', marginTop: '20px', color: 'var(--primary)' }}>Analyzing file...</p>}
         </div>
       )}
@@ -199,7 +199,7 @@ function App() {
             <div className="badge numeric">Rows: {schema.total_rows}</div>
             <div className="badge categorical">Columns: {schema.total_columns}</div>
           </div>
-          
+
           <div style={{ overflowX: 'auto' }}>
             <table className="data-table">
               <thead>
@@ -245,9 +245,9 @@ function App() {
 
           <div className="form-group">
             <label>Target Column (What you want to predict)</label>
-            <select 
-              className="form-select" 
-              value={targetColumn} 
+            <select
+              className="form-select"
+              value={targetColumn}
               onChange={e => {
                 setTargetColumn(e.target.value);
                 setFeatureColumns(prev => prev.filter(c => c !== e.target.value));
@@ -264,13 +264,13 @@ function App() {
             <label>Feature Columns (Data used to predict)</label>
             <div className="checkbox-grid">
               {schema.columns.filter(c => c.name !== targetColumn).map(col => (
-                <div 
-                  key={col.name} 
+                <div
+                  key={col.name}
                   className={`checkbox-item ${featureColumns.includes(col.name) ? 'selected' : ''}`}
                   onClick={() => toggleFeature(col.name)}
                 >
-                  <input 
-                    type="checkbox" 
+                  <input
+                    type="checkbox"
                     checked={featureColumns.includes(col.name)}
                     readOnly
                   />
@@ -292,12 +292,12 @@ function App() {
       {step === 4 && (
         <div className="card">
           <h2><Play /> Train Model</h2>
-          
+
           <div className="form-group">
             <label>Model Type</label>
-            <select 
-              className="form-select" 
-              value={modelType} 
+            <select
+              className="form-select"
+              value={modelType}
               onChange={e => {
                 setModelType(e.target.value);
                 setModelName(e.target.value === 'classification' ? 'Logistic Regression' : 'Linear Regression');
@@ -338,7 +338,7 @@ function App() {
         <div className="card">
           <h2><Activity /> Model Evaluation</h2>
           <p style={{ color: 'var(--text-secondary)' }}>Model '{modelName}' trained successfully.</p>
-          
+
           <div className="metrics-grid">
             {Object.entries(metrics).map(([key, value]) => (
               <div className="metric-card" key={key}>
@@ -358,7 +358,7 @@ function App() {
                   <CartesianGrid strokeDasharray="3 3" stroke="#334155" />
                   <XAxis dataKey="index" stroke="#94a3b8" />
                   <YAxis stroke="#94a3b8" />
-                  <Tooltip 
+                  <Tooltip
                     contentStyle={{ backgroundColor: '#1e293b', border: '1px solid #334155', borderRadius: '8px' }}
                     itemStyle={{ color: '#f8fafc' }}
                   />
@@ -371,7 +371,7 @@ function App() {
                   <CartesianGrid strokeDasharray="3 3" stroke="#334155" />
                   <XAxis dataKey="index" stroke="#94a3b8" />
                   <YAxis stroke="#94a3b8" />
-                  <Tooltip 
+                  <Tooltip
                     contentStyle={{ backgroundColor: '#1e293b', border: '1px solid #334155', borderRadius: '8px' }}
                   />
                   <Bar dataKey="actual" fill="#818cf8" radius={[4, 4, 0, 0]} />
