@@ -27,15 +27,22 @@ ML/DL Generator is a modular, full-stack machine learning platform that allows u
 - Python 3.10+
 - Node.js & npm
 
-### One-Click Start
-You can run both services simultaneously using the root startup script:
+### Getting Started
 
-```bash
-chmod +x run.sh
-./run.sh
-```
+1. **Clone the repository and run setup**:
+   ```bash
+   chmod +x setup.sh run.sh
+   ./setup.sh
+   ```
 
-### Manual Setup
+2. **Start both services**:
+   ```bash
+   ./run.sh
+   ```
+
+### Manual Setup (Optional)
+
+If you prefer to set up the components individually:
 
 #### Backend
 1. Navigate to `backend/`.
